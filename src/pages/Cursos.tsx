@@ -29,6 +29,7 @@ const ICONS: Record<string, string> = {
   normasEspecificas: icoEspecificas,
   proteccionCivil: icoPC,
   proyectosMercantiles: icoMerc,
+  cursosDelConocer: icoCapAdd,
 };
 
 
@@ -169,13 +170,13 @@ function resolveIconKeyFromText(text: string): string | null {
 
   if (t.includes("capacitaciones adicionales")) return "capacitacionesAdicionales";
 
-  // Capacitaciones Generales (cubre id + typo con tilde)
+  // Capacitaciones Especiales (usa el mismo icono que capacitaciones adicionales)
   if (
     t.includes("capacitaciones-especiales") ||
     t.includes("capacitaciones especiales") ||
     t.includes("capacitaciónes especiales")
   )
-    return "capacitacionesEspeciales";
+    return "capacitacionesAdicionales";
 
   // servicios
   if (t.includes("laboratorio")) return "laboratorio";
@@ -183,6 +184,7 @@ function resolveIconKeyFromText(text: string): string | null {
   if (t.includes("evaluaciones med") || t.includes("medicas")) return "evaluacionesMedicas";
   if (t.includes("proteccion civil") || t.includes("protección civil")) return "proteccionCivil";
   if (t.includes("mercantil") || t.includes("proyectos especiales")) return "proyectosMercantiles";
+   if (t.includes("conocer") || t.includes("cursos del conocer")) return "cursosDelConocer";
   if (t.includes("cumplimiento") && t.includes("ambient")) return "cumplimientoAmbiental";
   if (t.includes("cumplimiento")) return "cumplimientoNormativo";
 
