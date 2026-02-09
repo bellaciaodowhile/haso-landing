@@ -61,7 +61,7 @@ export default function Navbar({ logoSrc, logoAlt = "HASO" }: NavbarProps) {
             <img
               src={logoSrc ?? hasoLogo}
               alt={logoAlt}
-              className="h-[36px] w-auto select-none"
+              className="h-[36px] pl-5 w-auto select-none"
               draggable={false}
             />
           </a>
@@ -89,7 +89,7 @@ export default function Navbar({ logoSrc, logoAlt = "HASO" }: NavbarProps) {
         <div className="flex items-center">
           <button
             type="button"
-            className="inline-flex h-[34px] items-center justify-center rounded-full bg-[#6bb16e] px-6 text-[16px] font-extrabold text-white shadow-[0_2px_0_rgba(0,0,0,0.15)] transition-all hover:-translate-y-0.5 hover:bg-[#5fa963] active:translate-y-0"
+            className="inline-flex h-[34px] mr-2 items-center justify-center rounded-full bg-[#6bb16e] px-6 text-[16px] font-extrabold text-white shadow-[0_2px_0_rgba(0,0,0,0.15)] transition-all hover:-translate-y-0.5 hover:bg-[#5fa963] active:translate-y-0"
             onClick={() => {
               window.history.pushState({}, "", "#cotiza");
               scrollToHash("#cotiza");

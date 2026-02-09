@@ -290,13 +290,13 @@ function Pill({
 
 function SectionTitle({ title }: { title: string }) {
   return (
-    <div className="mb-10">
+    <div className="mb-8 sm:mb-10">
       {/* w-fit para que la línea calce el ancho del texto */}
       <div className="inline-flex w-fit flex-col items-start">
-        <h1 className="text-[40px] font-black leading-[1] text-[#0f1932] font-semibold m-0">
+        <h1 className="text-2xl sm:text-3xl md:text-[40px] font-black leading-[1] text-[#0f1932] font-semibold m-0">
           {titleCaseLikeDesign(title)}
         </h1>
-        <div className="mt-3 h-[2px] w-full bg-[#0f1932]" />
+        <div className="mt-2 sm:mt-3 h-[2px] w-full bg-[#0f1932]" />
       </div>
     </div>
   );
@@ -318,19 +318,19 @@ function Collapsible({
   level?: number;
 }) {
   const pad = level === 0 ? "" : level === 1 ? "pl-2" : level === 2 ? "pl-4" : "pl-6";
-  const textSize = level === 0 ? "text-[24px]" : level === 1 ? "text-[20px]" : level === 2 ? "text-[18px]" : "text-[16px]";
+  const textSize = level === 0 ? "text-xl sm:text-2xl md:text-[24px]" : level === 1 ? "text-lg sm:text-xl md:text-[20px]" : level === 2 ? "text-base sm:text-lg md:text-[18px]" : "text-sm sm:text-base md:text-[16px]";
 
   const showIcon = level === 0 && !!iconSrc;
   // When a top-level item has an icon, indent the expanded body so it starts under the title text.
   // 62px avatar + 24px gap = 86px
-  const bodyIndent = showIcon ? "pl-[86px]" : "";
+  const bodyIndent = showIcon ? "pl-[70px] sm:pl-[86px]" : "";
 
   return (
     <div className={"w-full " + pad}>
-      <div className={showIcon ? "flex items-start gap-6" : "flex"}>
+      <div className={showIcon ? "flex items-start gap-4 sm:gap-6" : "flex"}>
         {showIcon ? (
           <div
-            className="mt-1 h-[62px] w-[62px] shrink-0 overflow-hidden rounded-full bg-slate-200"
+            className="mt-1 h-[50px] w-[50px] sm:h-[62px] sm:w-[62px] shrink-0 overflow-hidden rounded-full bg-slate-200"
             aria-hidden="true"
           >
             <img src={iconSrc as string} alt="" className="h-full w-full object-cover" />
@@ -346,7 +346,7 @@ function Collapsible({
               <button
                 type="button"
                 onClick={onToggle}
-                className="mt-2 inline-flex items-center text-[18px] font-semibold text-left"
+                className="mt-2 inline-flex items-center text-base sm:text-lg md:text-[18px] font-semibold text-left"
                 aria-expanded={open}
               >
                 {open ? "Ver menos" : "Ver más"}
@@ -574,7 +574,7 @@ export default function Cursos() {
               }
             >
               {s.services?.length ? (
-                <ul className="pl-5 mt-3 space-y-3 text-[18px] font-semibold leading-snug text-slate-900">
+                <ul className="pl-4 sm:pl-5 mt-3 space-y-3 text-base sm:text-lg md:text-[18px] font-semibold leading-snug text-slate-900">
                   {s.services.map((sv) => {
                     const item: QuoteItem = {
                       id: `servicio:${subKey}:${slugify(sv.name)}`,
@@ -726,7 +726,7 @@ export default function Cursos() {
         title={header}
       >
         {(n.trainings ?? []).length ? (
-          <ul className="pl-5 mt-2 space-y-3 text-[18px] font-semibold leading-snug text-slate-900">
+          <ul className="pl-4 sm:pl-5 mt-2 space-y-3 text-base sm:text-lg md:text-[18px] font-semibold leading-snug text-slate-900">
             {(n.trainings ?? []).map((t) => {
               const item: QuoteItem = {
                 id: `curso:${normaKey}:${slugify(t)}`,
@@ -784,22 +784,22 @@ export default function Cursos() {
     <div className="min-h-screen bg-white text-slate-900" id="cursos">
 
       {/* MAIN CONTENT CURSOS */}
-      <main className="w-full py-10 pb-28">
+      <main className="w-full py-8 sm:py-10 pb-20 sm:pb-28">
         {/* BUSCADOR */}
-        <div className="mb-14 flex w-full justify-center">
+        <div className="mb-10 sm:mb-14 flex w-full justify-center px-4">
           <div className="relative w-full max-w-4xl">
             <input
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder=" "
-              className="peer h-[64px] w-full rounded-full border-2 border-slate-900 bg-white px-6 text-[22px] font-semibold text-slate-700 focus:outline-none focus:ring-0"
+              className="peer h-[52px] sm:h-[64px] w-full rounded-full border-2 border-slate-900 bg-white px-5 sm:px-6 text-lg sm:text-[22px] font-semibold text-slate-700 focus:outline-none focus:ring-0"
             />
 
             {/* Overlay centrado: icono + placeholder alineados (solo cuando está vacío) */}
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-3 text-slate-400 opacity-0 transition-opacity duration-150 peer-placeholder-shown:opacity-100">
+            <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 sm:gap-3 text-slate-400 opacity-0 transition-opacity duration-150 peer-placeholder-shown:opacity-100 px-4">
               <svg
-                className="h-6 w-6"
+                className="h-5 w-5 sm:h-6 sm:w-6 shrink-0"
                 viewBox="0 0 24 24"
                 fill="none"
                 xmlns="http://www.w3.org/2000/svg"
@@ -808,11 +808,11 @@ export default function Cursos() {
                 <circle cx="11" cy="11" r="7" stroke="currentColor" strokeWidth="2" />
                 <path d="M20 20l-3.5-3.5" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
               </svg>
-              <span className="text-[22px] font-semibold">Buscar por palabra clave o código (ej: NOM 1, NOM-001)</span>
+              <span className="text-base sm:text-lg md:text-[22px] font-semibold text-center">Buscar por palabra clave o código (ej: NOM 1, NOM-001)</span>
             </div>
           </div>
         </div>
-        <div className="mx-auto max-w-6xl px-6">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Wrapper con divisor verde central (no altura completa) */}
           <div className="relative">
             {/* Divider sólo en desktop */}
@@ -884,11 +884,11 @@ export default function Cursos() {
       </main>
 
       {quoteItems.length > 0 && (
-        <div className="fixed bottom-4 left-0 right-0 z-50 flex justify-center">
+        <div className="fixed bottom-4 left-0 right-0 z-50 flex justify-center px-4">
           <button
             type="button"
             onClick={() => setQuoteModalOpen(true)}
-            className="rounded-full bg-[#62a95f] px-8 py-3 text-[16px] font-bold text-white shadow-lg transition-colors hover:bg-[#5a9f57]"
+            className="rounded-full bg-[#62a95f] px-6 sm:px-8 py-2.5 sm:py-3 text-sm sm:text-base md:text-[16px] font-bold text-white shadow-lg transition-colors hover:bg-[#5a9f57]"
           >
             Enviar cotización de seleccionados ({quoteItems.length})
           </button>

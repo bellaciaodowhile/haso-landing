@@ -173,7 +173,7 @@ export default function Landing() {
       {/* HERO / SLIDER (estructura principal) */}
       <section className="w-full" id="inicio">
         <div className="mx-auto">
-          <div className="px-16 mx-auto">
+          <div className="px-4 md:px-16 mx-auto">
             <div className="relative overflow-hidden rounded-b-[40px] rounded-t-none bg-slate-900">
               {/* Imagen (placeholder). Si la ruta no existe aún, verás fondo oscuro igual */}
               <img
@@ -217,7 +217,7 @@ export default function Landing() {
                 </div>
 
                 {/* Title */}
-                <h2 className="mt-6 whitespace-pre-line text-4xl  leading-[1.0] text-white drop-shadow md:text-3xl max-w-[720px]">
+                <h2 className="mt-6 whitespace-pre-line text-xl sm:text-2xl md:text-3xl leading-[1.1] text-white drop-shadow max-w-[720px] px-4">
                   {slides[active].title}
                 </h2>
 
@@ -249,11 +249,11 @@ export default function Landing() {
 
           {/* Barra urgencia */}
           <div className="relative mt-10 w-full bg-[#6bb16e]">
-            <div className="flex h-full p-3 items-center justify-center gap-3 text-center text-[13px] font-extrabold text-white">
-              <span className="text-xl font-semibold">Sí tienes una urgencia laboral</span>
+            <div className="flex h-full p-3 items-center justify-center gap-2 sm:gap-3 text-center text-xs sm:text-sm md:text-[13px] font-extrabold text-white flex-wrap">
+              <span className="text-base sm:text-lg md:text-xl font-semibold">Sí tienes una urgencia laboral</span>
               <button
                 type="button"
-                className="relative rounded-full bg-[#f29a2e] px-4 text-[20px] font-semibold text-white transition-all"
+                className="relative rounded-full bg-[#f29a2e] px-3 sm:px-4 py-1 sm:py-1.5 text-base sm:text-lg md:text-[20px] font-semibold text-white transition-all"
                 onClick={() => {
                   window.history.pushState({}, "", "#contacto");
                   const el = document.querySelector("#contacto");
@@ -271,8 +271,8 @@ export default function Landing() {
           </div>
 
           {/* Mensaje principal (debajo del hero) */}
-          <div className="py-10">
-            <h3 className="mx-auto max-w-6xl font-bold text-center text-2xl font-black uppercase leading-[1] tracking-[0.06em] text-[#0f1932] sm:text-3xl md:text-4xl">
+          <div className="py-10 px-4">
+            <h3 className="mx-auto max-w-6xl font-bold text-center text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-black uppercase leading-[1.1] tracking-[0.06em] text-[#0f1932]">
               Capacitamos y asesoramos
               <br />
               a empresas en materia de prevencion de riesgos,
@@ -283,8 +283,8 @@ export default function Landing() {
 
           {/* QUIÉNES SOMOS – SECCIÓN VISUAL */}
           <section className="w-full bg-[#0d1730] py-10" id="quienes-somos">
-            <div className="mx-auto max-w-6xl px-6">
-              <div className="grid grid-cols-12 items-center gap-10">
+            <div className="mx-auto max-w-6xl px-4 sm:px-6">
+              <div className="grid grid-cols-12 items-center gap-6 md:gap-10">
 
                 {/* Imagen recortada / abstracta */}
                 <div className="relative col-span-12 md:col-span-7">
@@ -301,9 +301,9 @@ export default function Landing() {
 
                 {/* Card verde */}
                 <div className="col-span-12 md:col-span-5">
-                  <div className="rounded-3xl bg-[#62a95f] p-8 pt-5 text-white shadow-xl h-full">
-                    <h3 className="text-3xl font-semibold mb-2">¿Quiénes somos?</h3>
-                    <p className="text-[20px] font-semibold text-justify leading-[1.1]">
+                  <div className="rounded-3xl bg-[#62a95f] p-6 sm:p-8 md:p-8 pt-5 text-white shadow-xl h-full">
+                    <h3 className="text-2xl sm:text-3xl font-semibold mb-2">¿Quiénes somos?</h3>
+                    <p className="text-base sm:text-lg md:text-[20px] font-semibold text-justify leading-[1.1]">
                      Somos una empresa mexicana dedicada a la prestación de servicios de asesoría, capacitación, evaluación y gestión en materia de administración de riesgos en seguridad industrial, salud ocupacional, higiene industrial, medio ambiente y protección civil, apoyando a las empresas en el cumplimiento de la normatividad aplicable y obligatoria en los centros de trabajo, brindando resultados confiables.
                     </p>
                   </div>
@@ -316,23 +316,23 @@ export default function Landing() {
       </section>
 
       {/* CLIENTES QUE NOS PREFIEREN (en sección cotiza por ahora) */}
-      <section className="py-16" id="cotiza">
-        <div className="mx-auto max-w-6xl px-6">
+      <section className="py-10 sm:py-16" id="cotiza">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
           {/* Título centrado + línea */}
           <div className="flex flex-col items-center">
-            <h3 className="text-center text-[26px] font-semibold text-[#0f1932]">
+            <h3 className="text-center text-xl sm:text-2xl md:text-[26px] font-semibold text-[#0f1932]">
               Clientes que nos prefieren
             </h3>
-            <div className="mt-5 h-[2px] w-[310px] bg-[#2b3f7a]" />
+            <div className="mt-5 h-[2px] w-[250px] sm:w-[310px] bg-[#2b3f7a]" />
           </div>
 
           {/* Logos */}
           <div className="mt-10">
-            <div className="mx-auto flex max-w-[980px] flex-wrap items-center justify-center gap-x-5">
+            <div className="mx-auto flex max-w-[980px] flex-wrap items-center justify-center gap-x-3 sm:gap-x-5">
               {clientLogos.map((l) => (
                 <div
                   key={l.id}
-                  className="h-[52px] w-[160px]"
+                  className="h-[40px] w-[120px] sm:h-[52px] sm:w-[160px]"
                   aria-label={l.alt}
                   role="img"
                   style={{
@@ -347,11 +347,11 @@ export default function Landing() {
           </div>
 
           {/* Testimonios */}
-          <div className="mt-16">
-            <div className="relative overflow-hidden rounded-[28px] border border-slate-200 bg-white shadow-[0_12px_30px_rgba(15,25,50,0.10)]">
-              <div className="absolute left-0 top-0 h-full w-[10px] bg-[#62a95f]" aria-hidden="true" />
+          <div className="mt-10 sm:mt-16">
+            <div className="relative overflow-hidden rounded-[20px] sm:rounded-[28px] border border-slate-200 bg-white shadow-[0_12px_30px_rgba(15,25,50,0.10)]">
+              <div className="absolute left-0 top-0 h-full w-[6px] sm:w-[10px] bg-[#62a95f]" aria-hidden="true" />
 
-              <div className="px-8 py-10 md:px-12 md:py-12">
+              <div className="px-6 py-8 sm:px-8 sm:py-10 md:px-12 md:py-12">
                 <div className="flex items-start gap-6">
                   <div className="hidden md:block text-[64px] leading-none font-black text-[#62a95f] select-none" aria-hidden="true">“</div>
 
@@ -421,7 +421,7 @@ export default function Landing() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contactar por WhatsApp"
-        className="fixed bottom-10 right-10 z-50 flex h-16 w-16 items-center justify-center rounded-full shadow-2xl transition-all hover:scale-110 hover:shadow-[0_10px_40px_rgba(37,211,102,0.5)]"
+        className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full shadow-2xl transition-all hover:scale-110 hover:shadow-[0_10px_40px_rgba(37,211,102,0.5)]"
       >
         <img
           src={iconWhatsApp}

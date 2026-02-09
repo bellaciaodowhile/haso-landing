@@ -11,17 +11,17 @@ export default function Footer() {
   return (
     <footer className="w-full bg-white" aria-label="Footer">
       {/* CERTIFICACIONES */}
-      <section className="w-full py-16">
-        <div className="mx-auto max-w-6xl px-6">
-          <div className="grid grid-cols-12 items-start gap-10">
+      <section className="w-full py-10 sm:py-12 md:py-16">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6">
+          <div className="grid grid-cols-12 items-start gap-6 sm:gap-8 md:gap-10">
             {/* Texto izquierda */}
-            <div className="col-span-12 md:col-span-5">
-              <h3 className="text-4xl font-black leading-[1.05] text-[#0f1932]">
+            <div className="col-span-12 md:col-span-5 text-center md:text-left flex flex-col items-center md:items-start">
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-black leading-[1.05] text-[#0f1932]">
                 Nuestras
                 <br />
                 certificaciones
               </h3>
-              <p className="mt-5 max-w-[360px] text-[15px] font-semibold leading-relaxed text-slate-700">
+              <p className="mt-4 sm:mt-5 max-w-[360px] text-sm sm:text-[15px] font-semibold leading-relaxed text-slate-700">
                 Contamos con laboratorios acreditados y con gran variedad de servicios bajo
                 las siguientes normas.
               </p>
@@ -29,7 +29,7 @@ export default function Footer() {
 
             {/* Logos derecha (placeholders) */}
             <div className="col-span-12 md:col-span-7">
-              <div className="grid grid-cols-2 items-center gap-x-10 gap-y-6 sm:grid-cols-3 md:grid-cols-4 md:justify-items-end">
+              <div className="grid grid-cols-2 items-center justify-items-center gap-x-6 gap-y-4 sm:gap-x-10 sm:gap-y-6 sm:grid-cols-3 md:grid-cols-4 md:justify-items-end">
                 {[
                   { src: certCNPC, alt: "CNPC" },
                   { src: certConagua, alt: "CONAGUA" },
@@ -43,7 +43,7 @@ export default function Footer() {
                     key={c.alt}
                     src={c.src}
                     alt={c.alt}
-                    className="h-[46px] w-[140px] object-contain opacity-95"
+                    className="h-[36px] w-[100px] sm:h-[42px] sm:w-[120px] md:h-[46px] md:w-[140px] object-contain opacity-95"
                     draggable={false}
                     loading="lazy"
                   />
@@ -56,48 +56,48 @@ export default function Footer() {
 
       {/* CONTACTO CARD */}
       <section id="contacto" className="w-full pb-16 scroll-mt-[96px]">
-        <div className="mx-auto max-w-6xl px-10">
-          <div className="rounded-[28px] bg-[#f3f3f3] p-10 md:p-12">
-            <div className="grid grid-cols-12 items-start gap-10">
+        <div className="mx-auto max-w-6xl px-4 sm:px-6 md:px-10">
+          <div className="rounded-[20px] sm:rounded-[28px] bg-[#f3f3f3] p-6 sm:p-8 md:p-10 lg:p-12">
+            <div className="grid grid-cols-12 items-start gap-6 sm:gap-8 md:gap-10">
               {/* Columna izquierda */}
               <div className="col-span-12 md:col-span-7">
-                <h3 className="text-4xl font-black text-black">Contacto</h3>
-                <p className="mt-3 max-w-[520px] text-[15px] font-semibold leading-relaxed text-slate-700">
-                  Para dudas relacionadas a capacitación o fines comerciales <br /> por favor
+                <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-black">Contacto</h3>
+                <p className="mt-3 max-w-[520px] text-sm sm:text-[15px] font-semibold leading-relaxed text-slate-700">
+                  Para dudas relacionadas a capacitación o fines comerciales <br className="hidden sm:block" /> por favor
                   contactarse a los siguientes números.
                 </p>
 
-                <div className="mt-10 grid grid-cols-1 gap-10 sm:grid-cols-2">
+                <div className="mt-8 sm:mt-10 grid grid-cols-1 gap-6 sm:gap-8 md:gap-10 sm:grid-cols-2">
                   {/* Contacto 1 */}
                   <div>
-                    <div className="text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
+                    <div className="text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
                       Coordinador
                       <br />
                       de capacitacion
                     </div>
-                    <div className="mt-5 text-[18px] font-extrabold text-slate-700 leading-[1.1]">
+                    <div className="mt-4 sm:mt-5 text-base sm:text-lg md:text-[18px] font-extrabold text-slate-700 leading-[1.1]">
                       Rene Madrigal
                     </div>
-                    <div className="mt-4 space-y-1 text-[17px] font-semibold text-slate-700">
+                    <div className="mt-3 sm:mt-4 space-y-1 text-sm sm:text-base md:text-[17px] font-semibold text-slate-700">
                       <div className="leading-[1.1]">44 31668551</div>
                       <div className="leading-[1.1]">capacitacion@grupohaso.com.mx</div>
                     </div>
-                    <div className="mt-4 text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
+                    <div className="mt-3 sm:mt-4 text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
                       Oficina: <span className="text-slate-700 leading-[1.1]">443 382 6927</span>
                     </div>
                   </div>
 
                   {/* Contacto 2 */}
                   <div>
-                    <div className="text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
+                    <div className="text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
                       Directora
                       <br />
                       de ventas
                     </div>
-                    <div className="mt-5 text-[18px] font-extrabold leading-[1.1] text-slate-700">
+                    <div className="mt-4 sm:mt-5 text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-slate-700">
                        Anahí Hernandez
                     </div>
-                    <div className="mt-4 space-y-1 text-[17px] font-semibold text-slate-700">
+                    <div className="mt-3 sm:mt-4 space-y-1 text-sm sm:text-base md:text-[17px] font-semibold text-slate-700">
                       <div className="leading-[1.1]">+52 1 55 3442 7319</div>
                       <div className="leading-[1.1]">ventas@grupohaso.com.mx</div>
                     </div>
@@ -107,7 +107,7 @@ export default function Footer() {
 
               {/* Mapa derecha (placeholder) */}
               <div className="col-span-12 md:col-span-5">
-                <div className="h-[260px] w-full overflow-hidden rounded-[14px] bg-white shadow-sm md:h-[280px]">
+                <div className="h-[220px] sm:h-[260px] md:h-[280px] w-full overflow-hidden rounded-[14px] bg-white shadow-sm">
                   <iframe
                     title="Ubicación HASO"
                     src="https://www.google.com/maps?q=C.+Pedro+Aranda+564,+Alcalde+Ignacio+Pérez,+58190+Morelia,+Michoacán,+México&output=embed"
