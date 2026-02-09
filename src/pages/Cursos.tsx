@@ -337,10 +337,10 @@ function Collapsible({
           </div>
         ) : null}
 
-        <div className="inline-flex w-fit flex-col items-start text-left">
+        <div className="flex flex-1 min-w-0 flex-col items-start text-left">
           {level === 0 ? (
             <>
-              <div className={"" + textSize + " font-medium leading-tight text-left"}>{title}</div>
+              <div className={"" + textSize + " font-medium leading-tight text-left w-full"}>{title}</div>
               <div className="mt-2 h-[1px] w-full bg-slate-900" />
 
               <button
@@ -358,11 +358,11 @@ function Collapsible({
               <button
                 type="button"
                 onClick={onToggle}
-                className={"inline-flex items-center gap-2 " + textSize + " font-medium leading-tight text-left"}
+                className={"inline-flex items-start gap-2 w-full " + textSize + " font-medium leading-tight text-left"}
                 aria-expanded={open}
               >
-                <Chevron open={open} className="text-[#2e7d32]" />
-                {title}
+                <Chevron open={open} className="text-[#2e7d32] shrink-0" />
+                <span className="flex-1 min-w-0 break-words">{title}</span>
               </button>
               <div className="mt-2 h-[1px] w-full bg-slate-900" />
             </>
@@ -374,7 +374,7 @@ function Collapsible({
         className={
           "mt-4 w-full origin-top transform overflow-hidden transition-all duration-200 ease-out " +
           bodyIndent +
-          (open ? " opacity-100 scale-100 max-h-[4000px]" : " opacity-0 scale-95 max-h-0 pointer-events-none")
+          (open ? " opacity-100 scale-100 max-h-none" : " opacity-0 scale-95 max-h-0 pointer-events-none")
         }
       >
         {children}
@@ -451,7 +451,8 @@ export default function Cursos() {
         setError(null);
         // El JSON está en la raíz del proyecto y debe servirse desde /public para Vite.
         // Si lo dejaste en la raíz del repo, muévelo a `public/landing_servicios_v1.json`.
-        const res = await fetch("/landing_servicios_v1.json", { cache: "no-store" });
+        const timestamp = new Date().getTime();
+        const res = await fetch(`/landing_servicios_v1.json?v=${timestamp}`, { cache: "no-store" });
         if (!res.ok) throw new Error(`No se pudo cargar landing_servicios_v1.json (HTTP ${res.status})`);
         const json = (await res.json()) as LandingServicios;
         if (!cancelled) setData(json);
@@ -472,7 +473,8 @@ export default function Cursos() {
         setCursosLoading(true);
         setCursosError(null);
         // JSON de cursos en /public/landing_cursos_v1.json
-        const res = await fetch("/landing_cursos_v1.json", { cache: "no-store" });
+        const timestamp = new Date().getTime();
+        const res = await fetch(`/landing_cursos_v1.json?v=${timestamp}`, { cache: "no-store" });
         if (!res.ok) throw new Error(`No se pudo cargar landing_cursos_v1.json (HTTP ${res.status})`);
         const json = (await res.json()) as LandingCursos;
         if (!cancelled) setCursosData(json);
@@ -585,7 +587,7 @@ export default function Cursos() {
                     const selected = isSelected(item.id);
 
                     return (
-                      <li key={sv.name} className="m-0">
+                      <li key={sv.name} className="m-0 pl-5">
                         <div className="flex items-start gap-2 min-w-0">
                           <RoundBullet />
                           <span className="min-w-0">{sv.name}</span>
@@ -708,12 +710,12 @@ export default function Cursos() {
     const normaTitle = (n.normaTitle ?? "").trim();
 
     const header = (
-      <div className="flex flex-col items-start">
-        <div className="flex flex-wrap items-center gap-2">
-          <span className="font-black">{code || (n.normaTitle ?? "Norma")}</span>
+      <div className="flex flex-col items-start w-full">
+        <div className="flex flex-wrap items-center gap-2 w-full">
+          <span className="font-black break-words">{code || (n.normaTitle ?? "Norma")}</span>
           {tag ? <Pill variant="add">{tag}</Pill> : null}
         </div>
-        {code && normaTitle ? <span className="font-medium opacity-90">{normaTitle}</span> : null}
+        {code && normaTitle ? <span className="font-medium opacity-90 w-full break-words">{normaTitle}</span> : null}
       </div>
     );
 
@@ -738,7 +740,7 @@ export default function Cursos() {
 
               return (
                 <li key={t} className="m-0">
-                  <div className="flex items-start gap-2 min-w-0">
+                  <div className="pl-5 flex items-start gap-2 min-w-0">
                     <RoundBullet />
                     <span className="min-w-0">{t}</span>
                   </div>

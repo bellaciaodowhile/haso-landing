@@ -253,7 +253,7 @@ export default function Landing() {
               <span className="text-base sm:text-lg md:text-xl font-semibold">Sí tienes una urgencia laboral</span>
               <button
                 type="button"
-                className="relative rounded-full bg-[#f29a2e] px-3 sm:px-4 py-1 sm:py-1.5 text-base sm:text-lg md:text-[20px] font-semibold text-white transition-all"
+                className="relative rounded-full bg-[#f29a2e] px-3 sm:px-4 py-1 sm:py-1.5 text-base sm:text-lg md:text-[20px] font-semibold text-white transition-all pt-0"
                 onClick={() => {
                   window.history.pushState({}, "", "#contacto");
                   const el = document.querySelector("#contacto");
@@ -421,7 +421,7 @@ export default function Landing() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Contactar por WhatsApp"
-        className="fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full shadow-2xl transition-all hover:scale-110 hover:shadow-[0_10px_40px_rgba(37,211,102,0.5)]"
+        className="group fixed bottom-6 right-6 sm:bottom-10 sm:right-10 z-50 flex h-12 w-12 sm:h-16 sm:w-16 items-center justify-center rounded-full shadow-2xl transition-all hover:scale-110 hover:shadow-[0_10px_40px_rgba(37,211,102,0.5)]"
       >
         <img
           src={iconWhatsApp}
@@ -429,6 +429,21 @@ export default function Landing() {
           className="h-full w-full object-contain"
           draggable={false}
         />
+        
+        {/* Tooltip siempre visible */}
+        <span className="pointer-events-none absolute bottom-full right-0 mb-2 mr-2 whitespace-nowrap rounded-lg bg-slate-900 px-3 py-2 text-sm font-semibold text-white shadow-lg">
+          Agendar videollamada
+          {/* Flecha triangular diagonal apuntando hacia abajo-derecha */}
+          <span 
+            className="absolute bottom-1 right-0 translate-y-full -translate-x-1" 
+            style={{
+              width: 0,
+              height: 0,
+              borderLeft: '10px solid transparent',
+              borderTop: '10px solid #0f172a'
+            }}
+          ></span>
+        </span>
       </a>
     </div>
   );
