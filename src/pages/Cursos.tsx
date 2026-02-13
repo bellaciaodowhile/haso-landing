@@ -590,7 +590,7 @@ export default function Cursos() {
                       <li key={sv.name} className="m-0 pl-5">
                         <div className="flex items-start gap-2 min-w-0">
                           <RoundBullet />
-                          <span className="min-w-0">{sv.name}</span>
+                          <span className="min-w-0 whitespace-pre-line">{sv.name}</span>
                         </div>
 
                         {/* Botón debajo del bullet, alineado con el texto */}
@@ -742,7 +742,7 @@ export default function Cursos() {
                 <li key={t} className="m-0">
                   <div className="pl-5 flex items-start gap-2 min-w-0">
                     <RoundBullet />
-                    <span className="min-w-0">{t}</span>
+                    <span className="min-w-0 whitespace-pre-line">{t}</span>
                   </div>
 
                   {/* Botón debajo del bullet, alineado con el texto */}
@@ -854,7 +854,7 @@ export default function Cursos() {
 
               {/* COLUMNA DERECHA */}
               <section aria-label="Nuestros cursos y capacitaciones">
-                <SectionTitle title="Nuestros Cursos y capacitaciones" />
+                <SectionTitle title="Nuestros cursos y capacitaciones" />
 
                 {cursosLoading ? (
                   <div className="text-[16px] font-semibold text-slate-700">Cargando cursos…</div>

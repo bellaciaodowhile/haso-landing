@@ -71,9 +71,7 @@ export default function Footer() {
                   {/* Contacto 1 */}
                   <div>
                     <div className="text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
-                      Coordinador
-                      <br />
-                      de capacitacion
+                      Capacitación
                     </div>
                     <div className="mt-4 sm:mt-5 text-base sm:text-lg md:text-[18px] font-extrabold text-slate-700 leading-[1.1]">
                       Rene Madrigal
@@ -90,9 +88,7 @@ export default function Footer() {
                   {/* Contacto 2 */}
                   <div>
                     <div className="text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-[#62a95f]">
-                      Directora
-                      <br />
-                      de ventas
+                      Ventas
                     </div>
                     <div className="mt-4 sm:mt-5 text-base sm:text-lg md:text-[18px] font-extrabold leading-[1.1] text-slate-700">
                        Anahí Hernandez

@@ -14,7 +14,6 @@
         {
           "id": "nom-001-stps-2008",
           "code": "NOM-001-STPS-2008",
-          "tag": "Dar de alta",
           "normaTitle": "Edificios, locales, instalaciones y áreas en los centros de trabajo - Condiciones de seguridad.",
           "trainings": [
             "Uso y conservación de las áreas donde realicen las actividades en el centro de trabajo y de servicio.",
@@ -89,7 +88,7 @@
           "normaTitle": "Almacenamiento y manejo de materiales mediante el uso de maquinaria-condiciones de seguridad en el trabajo.",
           "trainings": [
             "Almacenamiento y manejo de materiales mediante el uso de maquinaria-condiciones de seguridad en el trabajo.",
-            " Condiciones de seguridad para el uso y operación de los equipos de montacargas.",
+            "Condiciones de seguridad para el uso y operación de los equipos de montacargas.",
             "Programa específico para la revisión y mantenimiento de la maquinaria empleada para el almacenamiento y manejo de materiales.",
             "Procedimientos para la instalación, operación, revisión y mantenimiento de la maquinaria utilizada en el manejo de materiales, atención a emergencias  durante su uso y para el almacenamiento de materiales.",
             "Medidas y condiciones de seguridad para realizar las actividades de almacenamiento de materiales.",
@@ -97,10 +96,11 @@
             "Almacenamiento de materiales.",
             "Condiciones de seguridad en operación de grúas.",
             "Operación de grúas.",
-            "Medidas de seguridad para polipastos, diferenciales y malacates.",
-            "Medidas de seguridad para eslingas.",
-            "Medidas de seguridad para montacargas.",
-            "Medidas de seguridad para transportadores."
+            "Medidas de seguridad para el uso de polipastos, diferenciales y malacates.",
+            "Medidas de seguridad para el uso de eslingas.",
+            "Medidas de seguridad para el uso de montacargas.",
+            "Medidas de seguridad para transportadores.",
+            "Operación segura de patín eléctrico - hidraúlico."
           ]
         },
         {
@@ -337,9 +337,9 @@
         {
           "id": "siaat",
           "code": "SIAAT",
-          "normaTitle": "Aviso de accidentes de trabajo, (SIAAT), (Capacitación y elaboración ante portal).",
+          "normaTitle": "Aviso de accidentes de trabajo, (SIAAT), Capacitación y elaboración ante portal.",
           "trainings": [
-            "Capacitación y elaboración ante portal."
+            "Aviso de accidentes de trabajo, (SIAAT), Capacitación y elaboración ante portal."
           ],
           "quoteRequirements": [
             "Nombre y apellidos",
@@ -354,9 +354,9 @@
         {
           "id": "sirce",
           "code": "SIRCE",
-          "normaTitle": "Sistema de Registro de la Capacitación Empresarial, (SIRCE)(Capacitación y elaboración ante portal).",
+          "normaTitle": "Sistema de Registro de la Capacitación Empresarial, (SIRCE) Capacitación y elaboración ante portal.",
           "trainings": [
-            "Capacitación y elaboración ante portal."
+            "Sistema de Registro de la Capacitación Empresarial, (SIRCE) Capacitación y elaboración ante portal."
           ],
           "quoteRequirements": [
             "Nombre y apellidos",
@@ -372,7 +372,7 @@
           "id": "soldadura-tig",
           "code": null,
           "normaTitle": "Soldadura eléctrica y proceso TIG.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Soldadura eléctrica y proceso TIG."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -387,7 +387,7 @@
           "id": "track-mobile",
           "code": null,
           "normaTitle": "Operación segura de Track Mobile.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Operación segura de Track Mobile."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -402,7 +402,7 @@
           "id": "extintores",
           "code": null,
           "normaTitle": "Capacitación uso y manejo de extintores.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Capacitación uso y manejo de extintores."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -417,7 +417,7 @@
           "id": "comando-incidentes",
           "code": null,
           "normaTitle": "Sistema de Comando de Incidentes.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Sistema de Comando de Incidentes."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -432,7 +432,7 @@
           "id": "taller-nom-035",
           "code": "NOM-035-STPS-2018",
           "normaTitle": "Taller para la aplicación del Desarrollo e interpretación de la NOM-035-STPS-2018 FACTORES DE RIESGO PSICOSOCIALES.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Taller para la aplicación del Desarrollo e interpretación de la NOM-035-STPS-2018 FACTORES DE RIESGO PSICOSOCIALES."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -447,7 +447,7 @@
           "id": "diplomado-seguridad-higiene-salud-ocupacional",
           "code": null,
           "normaTitle": "Diplomado en seguridad e higiene en el trabajo y salud ocupacional.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Diplomado en seguridad e higiene en el trabajo y salud ocupacional."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -462,7 +462,7 @@
           "id": "diplomado-seguridad-integral",
           "code": null,
           "normaTitle": "Diplomado en seguridad integral en prevención de riesgos.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Diplomado en seguridad integral en prevención de riesgos."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -477,7 +477,7 @@
           "id": "manejo-a-la-defensiva",
           "code": null,
           "normaTitle": "Manejo a la defensiva.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Manejo a la defensiva."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -517,7 +517,7 @@
           "id": "imparticion-de-cursos-de-formacion-del-capital-humano-de-manera-presencial-grupal",
           "code": null,
           "normaTitle": "Impartición de cursos de formación del capital humano de manera presencial grupal.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Impartición de cursos de formación del capital humano de manera presencial grupal, capacitación."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -532,7 +532,7 @@
           "id": "supervision-en-seguridad-industrial-para-lideres-de-equipos-de-trabajo",
           "code": null,
           "normaTitle": "Supervisión en seguridad industrial para líderes de equipos de trabajo.",
-          "trainings": ["Capacitación"],
+          "trainings": ["Supervisión en seguridad industrial para líderes de equipos de trabajo, capacitación."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",

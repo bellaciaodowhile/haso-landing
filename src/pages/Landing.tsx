@@ -105,7 +105,7 @@ export default function Landing() {
       id: "slide-3",
       src: slidePromo3,
       badges: ["Ambiental"],
-      title: "Precio especial por tiempo limitado.Descuento del 5% en el paquete integral si se agenda entre Enero y Febrero 2026.Aplica para empresas nuevas y clientes recurrentes.",
+      title: "Precio especial por tiempo limitado. Descuento del 5% en el paquete integral si se agenda entre Enero y Febrero 2026.Aplica para empresas nuevas y clientes recurrentes.",
       cta: "Cotiza Aquí",
       msg: "Ambiental"
     },
@@ -253,7 +253,7 @@ export default function Landing() {
               <span className="text-base sm:text-lg md:text-xl font-semibold">Sí tienes una urgencia laboral</span>
               <button
                 type="button"
-                className="relative rounded-full bg-[#f29a2e] px-3 sm:px-4 py-1 sm:py-1.5 text-base sm:text-lg md:text-[20px] font-semibold text-white transition-all pt-0"
+                className="relative rounded-full bg-[#E8DD45] px-3 sm:px-4 py-1 sm:py-1.5 text-base sm:text-lg md:text-[20px] font-semibold text-[#4b4949] transition-all pt-0"
                 onClick={() => {
                   window.history.pushState({}, "", "#contacto");
                   const el = document.querySelector("#contacto");

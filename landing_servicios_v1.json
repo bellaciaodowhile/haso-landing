@@ -620,7 +620,7 @@
                   "description": "Recipientes sujetos a presión y calderas.",
                   "services": [
                     {
-                      "name": "1. Listado actualizado de los equipos que se encuentren instalados en el centro de trabajo. 2. Clasificación de los equipos instalados en el centro de trabajo en las categorías I, II o III. 3. Expediente de cada equipo clasificado en la Categoría I, instalado en el centro de trabajo.",
+                      "name": "1. Listado actualizado de los equipos que se encuentren instalados en el centro de trabajo.\n2. Clasificación de los equipos instalados en el centro de trabajo en las categorías I, II o III.\n3. Expediente de cada equipo clasificado en la Categoría I, instalado en el centro de trabajo.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión."
                     },
                     {

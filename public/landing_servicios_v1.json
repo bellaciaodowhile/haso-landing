@@ -268,7 +268,15 @@
               "description": "Trabajo en espacios confinados.",
               "services": [
                 {
-                  "name": "Estudio para la clasificación de espacios confinados. Procedimientos de seguridad para las actividades a desarrollar en actividades de espacios confinados. Elaboración de plan de trabajo para realizar trabajos en espacios confinados",
+                  "name": "Estudio para la clasificación de espacios confinados.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                 {
+                  "name": "Procedimientos de seguridad para las actividades a desarrollar en actividades de espacios confinados.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                 {
+                  "name": "Elaboración de plan de trabajo para realizar trabajos en espacios confinados",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -327,10 +335,6 @@
               "code": "NOM-030-STPS-2009",
               "description": "Servicios preventivos de seguridad y salud.",
               "services": [
-                {
-                  "name": "Diagnóstico de seguridad y salud en el Trabajo.",
-                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
-                },
                 {
                   "name": "Diagnóstico de seguridad y salud en el Trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
@@ -620,7 +624,7 @@
                   "description": "Recipientes sujetos a presión y calderas.",
                   "services": [
                     {
-                      "name": "1. Listado actualizado de los equipos que se encuentren instalados en el centro de trabajo. 2. Clasificación de los equipos instalados en el centro de trabajo en las categorías I, II o III. 3. Expediente de cada equipo clasificado en la Categoría I, instalado en el centro de trabajo.",
+                      "name": "1. Listado actualizado de los equipos que se encuentren instalados en el centro de trabajo.\n2. Clasificación de los equipos instalados en el centro de trabajo en las categorías I, II o III.\n3. Expediente de cada equipo clasificado en la Categoría I, instalado en el centro de trabajo.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión."
                     },
                     {
@@ -852,6 +856,38 @@
                 {
                   "name": "Revisión de instalaciones eléctricas en materia de seguridad.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                },
+                {
+                  "name": "Dictamen electrico UVIE (Dictamen de verificación de instalaciones eléctricas).",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                },
+                {
+                  "name": "Dictamen de Gas L.P (Expediente de instalación de gas de aprovechamiento Gas L.P. NOM-004-SEDG-2004).",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                },
+                {
+                  "name": "Dictamen de Gas L.P (Dictamen de la medición ultrasónica de espesores, NOM-013-SEDG-2002).",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                },
+                {
+                  "name": "Dictamen de inspección de la instalación de aprovechamiento de gas natural (NOM-002-SECRE-2010).",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                }
+              ]
+            },
+             {
+              "id": "ventas-de-equipo",
+              "label": "Ventas de Equipo",
+              "code": null,
+              "description": "Ventas de Equipo.",
+              "services": [
+                {
+                  "name": "Ventas de Equipo de Protección Personal.",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
+                },
+                {
+                  "name": "Venta de Equipo Contra Incencio.",
+                  "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
             }
@@ -868,9 +904,9 @@
           "title": "Cumplimiento legislación ambiental mexicana",
           "subcategories": [
             {
-              "id": "nom-052-semarnat-2002-crit-hidrocarburos-de-petroleo-tph-bifenilos-policlorados-pbc",
-              "label": "NOM-052-SEMARNAT-2002. CRIT, Hidrocarburos de petróleo (TPH), Bifenilos policlorados (PBC).",
-              "code": "NOM-052-SEMARNAT-2002",
+              "id": "ley-general-para-residuos-crit-hidrocarburos-de-petroleo-tph-bifenilos-policlorados-pbc",
+              "label": "Ley general para residuos. CRIT, Hidrocarburos de petróleo (TPH), Bifenilos policlorados (PBC).",
+              "code": "Ley general para residuos",
               "description": "CRIT, Hidrocarburos de petróleo (TPH), Bifenilos policlorados (PBC).",
               "services": [
                 {
@@ -996,24 +1032,46 @@
                 {
                   "name": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                {
+                  "name": "Modificación del registro de residuos peligrosos.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                {
+                  "name": "Modificación del registro de manejo especial y/o sólidos urbanos.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                {
+                  "name": "Modificación al plan de manejo de residuos de manejo especal y/o sólidos urbanos.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                {
+                  "name": "Modificación al plan de manejo de residuos peligrosos.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
-            }
-          ]
-        },
-        {
-          "id": "medio-ambiente",
-          "title": "Medio Ambiente",
-          "subcategories": [
+            },
             {
-              "id": "gestion-ante-sermarnat-para-ingreso-de-ppa-y-era",
-              "label": "Gestión ante SERMARNAT para ingreso de PPA Y ERA.",
+              "id": "gestion-ante-sermarnat-secmat",
+              "label": "Gestión ante SERMARNAT/SECMA.",
               "code": null,
-              "description": "Gestión ante SERMARNAT para ingreso de PPA Y ERA.",
+              "description": "Gestión ante SERMARNAT/SECMA.",
               "services": [
                 {
-                  "name": "PPA y ERA",
-                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Giro"
+                  "name": "Ingreso de la documentación ante la dependencia.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                }
+              ]
+            },
+            {
+              "id": "gestion-ante-sermarnat-secmat-para-ingreso-de-ppa-y-era",
+              "label": "Gestión ante SERMARNAT/SECMA para ingreso de PPA y ERA.",
+              "code": null,
+              "description": "Gestión ante SERMARNAT/SECMA para ingreso de PPA y ERA.",
+              "services": [
+                {
+                  "name": "Ingreso de la documentación ante la dependencia PPA y ERA.",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
             }
@@ -1060,7 +1118,7 @@
               "description": "Tramite, gestión y seguimiento ante SEMARNAT, para paro de operación.",
               "services": [
                 {
-                  "name": "Trámite",
+                  "name": "Tramite, gestión y seguimiento ante SEMARNAT, para paro de operación. Trámite.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1072,7 +1130,7 @@
               "description": "Documentacion para el cumplimiento de la NOM 022.",
               "services": [
                 {
-                  "name": "Documental",
+                  "name": "Documentacion para el cumplimiento de la NOM 022. Documental.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1162,7 +1220,7 @@
               "description": "Estudio De Riesgo ambiental Para Plantas En Operación.",
               "services": [
                 {
-                  "name": "PPA y ERA",
+                  "name": "PPA y ERA.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
