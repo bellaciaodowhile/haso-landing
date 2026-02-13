@@ -105,7 +105,7 @@ export default function Landing() {
       id: "slide-3",
       src: slidePromo3,
       badges: ["Ambiental"],
-      title: "Precio especial por tiempo limitado. Descuento del 5% en el paquete integral si se agenda entre Enero y Febrero 2026.Aplica para empresas nuevas y clientes recurrentes.",
+      title: "Precio especial por tiempo limitado. Descuento del 5% en el paquete integral si se agenda entre Enero y Febrero 2026. Aplica para empresas nuevas y clientes recurrentes.",
       cta: "Cotiza Aquí",
       msg: "Ambiental"
     },
