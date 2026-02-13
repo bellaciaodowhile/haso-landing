@@ -449,7 +449,7 @@
               "id": "normatividad-aplicable-al-centro-de-trabajo",
               "label": "Normatividad aplicable al centro de trabajo",
               "code": null,
-              "description": "Normatividad aplicable al centro de trabajo.",
+              "description": "",
               "services": [
                 {
                   "name": "Cumplimiento Normativo Aplicable",
@@ -461,7 +461,7 @@
               "id": "inspeccion-de-normatividad-aplicable-al-centro-de-trabajo",
               "label": "Inspección de Normatividad aplicable al centro de trabajo",
               "code": null,
-              "description": "Inspección de Normatividad aplicable al centro de trabajo.",
+              "description": "",
               "services": [
                 {
                   "name": "Cumplimiento Normativo Aplicable",
@@ -573,7 +573,7 @@
                   "id": "epa-018-emisiones-de-compuestos-organicos-volatiles-cov-s",
                   "label": "EPA-018. Emisiones de compuestos orgánicos volátiles (COV´S).",
                   "code": null,
-                  "description": "EPA-018. Emisiones de compuestos orgánicos volátiles (COV´S).",
+                  "description": "",
                   "services": [
                     {
                       "name": "Emisiones a la Atmosfera. EPA-018. Emisiones de compuestos orgánicos volátiles (COV´S).",
@@ -919,7 +919,7 @@
               "id": "gestion-ambiental-normatividad-emitida-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
               "label": "Gestión ambiental, normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal",
               "code": null,
-              "description": "Gestión ambiental, normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
+              "description": "",
               "services": [
                 {
                   "name": "Estudios de Impacto y Riesgo Ambiental ERA.",
@@ -951,7 +951,7 @@
               "id": "tramites-y-licencias-ambientales-segun-la-normatividad-emitida-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
               "label": "Tramites y licencias ambientales, según la normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal",
               "code": null,
-              "description": "Tramites y licencias ambientales, según la normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
+              "description": "",
               "services": [
                 {
                   "name": "Licencia Ambiental Única (LAU ESTATAL).",
@@ -959,6 +959,10 @@
                 },
                 {
                   "name": "Licencia Ambiental Única (LAU FEDERAL)",
+                  "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
+                },
+                {
+                  "name": "Diagrama de proceso en materia ambiental (Involucra entrada y salida de agua emisiones a la atmosfera y residuos).",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -999,7 +1003,7 @@
               "id": "auditoria-ambiental-nomatividad-emitda-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
               "label": "Auditoría Ambiental. Nomatividad emitda por la  secretaria de medio ambiente a nivel estatal, federal o municipal",
               "code": null,
-              "description": "Auditoría Ambiental. Nomatividad emitda por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
+              "description": "",
               "services": [
                 {
                   "name": "Diagnostico ambiental.",
@@ -1027,7 +1031,7 @@
               "id": "modificaciones-a-los-registros-y-autorizaciones-en-materia-de-residuos-peligrosos",
               "label": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos",
               "code": null,
-              "description": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos.",
+              "description": "",
               "services": [
                 {
                   "name": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos",
@@ -1055,7 +1059,7 @@
               "id": "gestion-ante-sermarnat-secmat",
               "label": "Gestión ante SERMARNAT/SECMA.",
               "code": null,
-              "description": "Gestión ante SERMARNAT/SECMA.",
+              "description": "",
               "services": [
                 {
                   "name": "Ingreso de la documentación ante la dependencia.",
@@ -1067,7 +1071,7 @@
               "id": "gestion-ante-sermarnat-secmat-para-ingreso-de-ppa-y-era",
               "label": "Gestión ante SERMARNAT/SECMA para ingreso de PPA y ERA.",
               "code": null,
-              "description": "Gestión ante SERMARNAT/SECMA para ingreso de PPA y ERA.",
+              "description": "",
               "services": [
                 {
                   "name": "Ingreso de la documentación ante la dependencia PPA y ERA.",
@@ -1166,7 +1170,7 @@
               "description": "Aviso de accidentes de trabajo, (SIAAT).",
               "services": [
                 {
-                  "name": "Capacitación",
+                  "name": "Aviso de accidentes de trabajo, (SIAAT).",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1217,10 +1221,10 @@
               "id": "estudio-de-riesgo-ambienta-para-plantas-en-operacion",
               "label": "Estudio De Riesgo ambiental Para Plantas En Operación.",
               "code": null,
-              "description": "Estudio De Riesgo ambiental Para Plantas En Operación.",
+              "description": "",
               "services": [
                 {
-                  "name": "PPA y ERA.",
+                  "name": "Estudio De Riesgo ambiental Para Plantas En Operación. PPA y ERA.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]

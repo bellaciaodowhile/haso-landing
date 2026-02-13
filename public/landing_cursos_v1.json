@@ -337,7 +337,7 @@
         {
           "id": "siaat",
           "code": "SIAAT",
-          "normaTitle": "Aviso de accidentes de trabajo, (SIAAT), Capacitación y elaboración ante portal.",
+          "normaTitle": "Aviso de accidentes de trabajo, (SIAAT), (Capacitación y elaboración ante portal).",
           "trainings": [
             "Aviso de accidentes de trabajo, (SIAAT), Capacitación y elaboración ante portal."
           ],
@@ -354,7 +354,7 @@
         {
           "id": "sirce",
           "code": "SIRCE",
-          "normaTitle": "Sistema de Registro de la Capacitación Empresarial, (SIRCE) Capacitación y elaboración ante portal.",
+          "normaTitle": "Sistema de Registro de la Capacitación Empresarial, (SIRCE) (Capacitación y elaboración ante portal).",
           "trainings": [
             "Sistema de Registro de la Capacitación Empresarial, (SIRCE) Capacitación y elaboración ante portal."
           ],
@@ -517,7 +517,7 @@
           "id": "imparticion-de-cursos-de-formacion-del-capital-humano-de-manera-presencial-grupal",
           "code": null,
           "normaTitle": "Impartición de cursos de formación del capital humano de manera presencial grupal.",
-          "trainings": ["Impartición de cursos de formación del capital humano de manera presencial grupal, capacitación."],
+          "trainings": ["Impartición de cursos de formación del capital humano de manera presencial grupal."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
@@ -532,7 +532,7 @@
           "id": "supervision-en-seguridad-industrial-para-lideres-de-equipos-de-trabajo",
           "code": null,
           "normaTitle": "Supervisión en seguridad industrial para líderes de equipos de trabajo.",
-          "trainings": ["Supervisión en seguridad industrial para líderes de equipos de trabajo, capacitación."],
+          "trainings": ["Supervisión en seguridad industrial para líderes de equipos de trabajo."],
           "quoteRequirements": [
             "Nombre y apellidos",
             "Correo electrónico",
