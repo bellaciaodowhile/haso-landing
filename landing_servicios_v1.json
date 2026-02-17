@@ -11,16 +11,16 @@
           "subcategories": [
             {
               "id": "nom-001-stps-2008-edificios-locales-instalaciones-y-areas-en-los-centros-de",
-              "label": "NOM-001-STPS-2008 Edificios, locales, instalaciones y áreas en los centros de",
+              "label": "NOM-001-STPS-2008 Edificios, locales, instalaciones y áreas en los centros de.",
               "code": "NOM-001-STPS-2008",
               "description": "Edificios, locales, instalaciones y áreas en los centros de.",
               "services": [
                 {
-                  "name": "Programa anual de mantenimiento preventivo y correctivo del sistema de ventilación artificial",
+                  "name": "Programa anual de mantenimiento preventivo y correctivo del sistema de ventilación artificial.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa especifico de mantenimiento de las instalaciones del centro de trabajo",
+                  "name": "Programa especifico de mantenimiento de las instalaciones del centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -32,15 +32,15 @@
               "description": "Condiciones de seguridad- prevención y protección contra incendios en los centros de trabajo.",
               "services": [
                 {
-                  "name": "Estudio para la clasificación del riesgo de incendio del centro de trabajo o por áreas que lo integran",
+                  "name": "Estudio para la clasificación del riesgo de incendio del centro de trabajo o por áreas que lo integran.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa anual de revisión a las instalaciones eléctricas de las áreas del centro de trabajo",
+                  "name": "Programa anual de revisión a las instalaciones eléctricas de las áreas del centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa anual de revisión a las instalaciones de gas licuado de petróleo y/o natural",
+                  "name": "Programa anual de revisión a las instalaciones de gas licuado de petróleo y/o natural.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -52,19 +52,19 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Instrucciones de seguridad para la prevención y protección de incendios aplicables en cada área del centro trabajo",
+                  "name": "Instrucciones de seguridad para la prevención y protección de incendios aplicables en cada área del centro trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Plan de atención de emergencias de incendio",
+                  "name": "Plan de atención de emergencias de incendio.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Seguimiento para el desarrollo de simulacros de emergencias y sus registros de ejecución",
+                  "name": "Seguimiento para el desarrollo de simulacros de emergencias y sus registros de ejecución.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa anual de revisión de equipos contra incendio y formatos de revisión",
+                  "name": "Programa anual de revisión de equipos contra incendio y formatos de revisión.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -136,7 +136,7 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Procedimientos de seguridad para su instalación, operación y mantenimiento, en las actividades de manejo y almacenamiento de materiales en el centro de trabajo",
+                  "name": "Procedimientos de seguridad para su instalación, operación y mantenimiento, en las actividades de manejo y almacenamiento de materiales en el centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -184,7 +184,7 @@
               "description": "Recipientes sujetos a presión y calderas.",
               "services": [
                 {
-                  "name": "Programas específicos de revisión y mantenimiento para los equipos clasificados en categoría II y III",
+                  "name": "Programas específicos de revisión y mantenimiento para los equipos clasificados en categoría II y III.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión. 7.- Giro"
                 },
                 {
@@ -192,11 +192,11 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión. 7.- Giro"
                 },
                 {
-                  "name": "Plan de atención a emergencias para los equipos clasificados en categorías II y III",
+                  "name": "Plan de atención a emergencias para los equipos clasificados en categorías II y III.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión. 7.- Giro"
                 },
                 {
-                  "name": "Aviso a la STPS para los equipos clasificados en la categoría III",
+                  "name": "Aviso a la STPS para los equipos clasificados en la categoría III.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión. 7.- Giro"
                 }
               ]
@@ -212,11 +212,11 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa para las actividades de soldadura y corte. Procedimientos de seguridad e higiene que deben ser aplicados por los trabajadores que desarrollan actividades de soldadura y corte",
+                  "name": "Programa para las actividades de soldadura y corte. Procedimientos de seguridad e higiene que deben ser aplicados por los trabajadores que desarrollan actividades de soldadura y corte.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Procedimiento de autorización para los trabajadores que realizan actividades de soldadura y corte en espacios confinados, alturas, sótanos, subterráneos, áreas controladas con presencia de sustancias químicas o explosivas y aquéllas no designadas específicamente para estas actividades. Autorizaciones por escrito de los trabajadores que realizan actividades de soldadura y corte",
+                  "name": "Procedimiento de autorización para los trabajadores que realizan actividades de soldadura y corte en espacios confinados, alturas, sótanos, subterráneos, áreas controladas con presencia de sustancias químicas o explosivas y aquéllas no designadas específicamente para estas actividades. Autorizaciones por escrito de los trabajadores que realizan actividades de soldadura y corte.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -252,11 +252,11 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Autorizaciones por escrito a trabajadores capacitados para realizar actividades de mantenimiento de las instalaciones eléctricas",
+                  "name": "Autorizaciones por escrito a trabajadores capacitados para realizar actividades de mantenimiento de las instalaciones eléctricas.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Plan de atención a emergencias",
+                  "name": "Plan de atención a emergencias.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -268,19 +268,19 @@
               "description": "Trabajo en espacios confinados.",
               "services": [
                 {
-                  "name": "Estudio para la clasificación de espacios confinados. Procedimientos de seguridad para las actividades a desarrollar en actividades de espacios confinados. Elaboración de plan de trabajo para realizar trabajos en espacios confinados",
+                  "name": "Estudio para la clasificación de espacios confinados. Procedimientos de seguridad para las actividades a desarrollar en actividades de espacios confinados. Elaboración de plan de trabajo para realizar trabajos en espacios confinados.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Autorizaciones por escrito a los trabajadores para la realización de trabajos en espacios confinados",
+                  "name": "Autorizaciones por escrito a los trabajadores para la realización de trabajos en espacios confinados.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Medidas de seguridad para realizar trabajos en espacio confinados",
+                  "name": "Medidas de seguridad para realizar trabajos en espacio confinados.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Plan de atención a emergencias y rescate",
+                  "name": "Plan de atención a emergencias y rescate.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -312,11 +312,11 @@
               "description": "Colores y señales de seguridad.",
               "services": [
                 {
-                  "name": "Análisis para la correcta interpretación de la señalética y delimitaciones de las áreas del centro de trabajo",
+                  "name": "Análisis para la correcta interpretación de la señalética y delimitaciones de las áreas del centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Instalación de señalética, pintado y delimitación de áreas en el centro de trabajo",
+                  "name": "Instalación de señalética, pintado y delimitación de áreas en el centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -352,11 +352,11 @@
               "description": "Contaminantes por sustancias químicas.",
               "services": [
                 {
-                  "name": "Instauración de acciones de control",
+                  "name": "Instauración de acciones de control.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa de vigilancia a la salud",
+                  "name": "Programa de vigilancia a la salud.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -368,7 +368,7 @@
               "description": "Seguridad e Higiene en los centros de trabajo donde se genere ruido.",
               "services": [
                 {
-                  "name": "Elaboración de programa de conservación de la audición",
+                  "name": "Elaboración de programa de conservación de la audición.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -380,7 +380,7 @@
               "description": "Condiciones térmicas elevadas o abatidas.",
               "services": [
                 {
-                  "name": "Programa de vigilancia a la salud",
+                  "name": "Programa de vigilancia a la salud.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -392,11 +392,11 @@
               "description": "Vibraciones.",
               "services": [
                 {
-                  "name": "Programa para la prevención de alteraciones a la salud del POE",
+                  "name": "Programa para la prevención de alteraciones a la salud del POE.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa de vigilancia a la salud",
+                  "name": "Programa de vigilancia a la salud.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -408,11 +408,11 @@
               "description": "Iluminación.",
               "services": [
                 {
-                  "name": "Programa de mantenimiento para las luminarias",
+                  "name": "Programa de mantenimiento para las luminarias.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Programa de vigilancia a la salud",
+                  "name": "Programa de vigilancia a la salud.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -424,7 +424,7 @@
               "description": "Factores de riesgo psicosocial en el trabajo - identificación, análisis y prevención.",
               "services": [
                 {
-                  "name": "Factores de Riesgo Psicosocial",
+                  "name": "Factores de Riesgo Psicosocial.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -436,31 +436,31 @@
               "description": "Factores de riesgo ergonómico en el trabajo - identificación, análisis, prevención y control. Parte 1: manejo manual de cargas.",
               "services": [
                 {
-                  "name": "Factores de Riesgo Ergonómico",
+                  "name": "Factores de Riesgo Ergonómico.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
             },
             {
               "id": "normatividad-aplicable-al-centro-de-trabajo",
-              "label": "Normatividad aplicable al centro de trabajo",
+              "label": "Normatividad aplicable al centro de trabajo.",
               "code": null,
               "description": "Normatividad aplicable al centro de trabajo.",
               "services": [
                 {
-                  "name": "Cumplimiento Normativo Aplicable",
+                  "name": "Cumplimiento Normativo Aplicable.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
             },
             {
               "id": "inspeccion-de-normatividad-aplicable-al-centro-de-trabajo",
-              "label": "Inspección de Normatividad aplicable al centro de trabajo",
+              "label": "Inspección de Normatividad aplicable al centro de trabajo.",
               "code": null,
               "description": "Inspección de Normatividad aplicable al centro de trabajo.",
               "services": [
                 {
-                  "name": "Cumplimiento Normativo Aplicable",
+                  "name": "Cumplimiento Normativo Aplicable.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -472,7 +472,7 @@
               "description": "Teletrabajo- Condiciones de seguridad y salud en el trabajo.",
               "services": [
                 {
-                  "name": "Política de Teletrabajo",
+                  "name": "Política de Teletrabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -500,7 +500,7 @@
                   "description": "Descargas de bienes Nacionales.",
                   "services": [
                     {
-                      "name": "Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental. NOM-001-SEMARNAT-1996",
+                      "name": "Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental. NOM-001-SEMARNAT-1996.",
                       "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Cantidad de puntos de muestreo. 7.- Giro."
                     }
                   ]
@@ -512,31 +512,31 @@
                   "description": "Descargas en sistemas de alcantarillado.",
                   "services": [
                     {
-                      "name": "NOM-002-SEMARNAT-1996.Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental",
+                      "name": "NOM-002-SEMARNAT-1996.Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental.",
                       "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Cantidad de puntos de muestreo. 7.- Giro."
                     }
                   ]
                 },
                 {
                   "id": "nom-003-semarnat-1997-agua-de-reuso-en-servicios-al-publico",
-                  "label": "NOM-003-SEMARNAT-1997. Agua de reusó en servicios al público",
+                  "label": "NOM-003-SEMARNAT-1997. Agua de reusó en servicios al público.",
                   "code": "NOM-003-SEMARNAT-1997",
                   "description": "Agua de reusó en servicios al público.",
                   "services": [
                     {
-                      "name": "NOM-003-SEMARNAT-1997. Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental",
+                      "name": "NOM-003-SEMARNAT-1997. Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental.",
                       "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Cantidad de puntos de muestreo. 7.- Giro."
                     }
                   ]
                 },
                 {
                   "id": "nadf-015-agua-2009-descargas-al-sistema-de-drenaje-de-la-ciudad-de-mexico",
-                  "label": "NADF-015-AGUA-2009. Descargas al sistema de drenaje de la ciudad de México",
+                  "label": "NADF-015-AGUA-2009. Descargas al sistema de drenaje de la ciudad de México.",
                   "code": "NADF-015-AGUA-2009",
                   "description": "Descargas al sistema de drenaje de la ciudad de México.",
                   "services": [
                     {
-                      "name": "NADF-015-AGUA-2009. Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental",
+                      "name": "NADF-015-AGUA-2009. Análisis de agua + Toma de muestra In Situ de acuerdo a las normas oficiales de la entidad ambiental.",
                       "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Cantidad de puntos de muestreo. 7.- Giro."
                     }
                   ]
@@ -591,12 +591,12 @@
                 },
                 {
                   "id": "nom-005-ambt-2006-condiciones-de-medicion-y-limites-maximos-permisibles-de-emisiones-sonoras-en-fuentes-emisoras-en-la-ciudad-de-mexico",
-                  "label": "NOM-005-AMBT-2006. Condiciones de medición y límites máximos permisibles de emisiones sonoras en Fuentes Emisoras en la ciudad de México",
+                  "label": "NOM-005-AMBT-2006. Condiciones de medición y límites máximos permisibles de emisiones sonoras en Fuentes Emisoras en la ciudad de México.",
                   "code": "NOM-005-AMBT-2006",
                   "description": "Condiciones de medición y límites máximos permisibles de emisiones sonoras en Fuentes Emisoras en la ciudad de México.",
                   "services": [
                     {
-                      "name": "NOM-005-AMBT-2006. Condiciones de medición y límites máximos permisibles de emisiones sonoras en Fuentes Emisoras en la ciudad de México",
+                      "name": "NOM-005-AMBT-2006. Condiciones de medición y límites máximos permisibles de emisiones sonoras en Fuentes Emisoras en la ciudad de México.",
                       "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Cantidad de puntos de muestreo. 7.- Giro."
                     }
                   ]
@@ -624,7 +624,7 @@
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión."
                     },
                     {
-                      "name": "Pruebas de presión o exámenes no destructivos a los equipos clasificados en las categorías II y III",
+                      "name": "Pruebas de presión o exámenes no destructivos a los equipos clasificados en las categorías II y III.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de recipientes sujetos a presión."
                     }
                   ]
@@ -636,7 +636,7 @@
                   "description": "Electricidad estática.",
                   "services": [
                     {
-                      "name": "Estudio de tierras físicas de acuerdo a la NOM-022-STPS-20015",
+                      "name": "Estudio de tierras físicas de acuerdo a la NOM-022-STPS-20015.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.-Cantidad de puntos de evaluación."
                     }
                   ]
@@ -648,11 +648,11 @@
                   "description": "Contaminantes por sustancias químicas.",
                   "services": [
                     {
-                      "name": "Reconocimiento de los agentes químicos del ambiente laboral",
+                      "name": "Reconocimiento de los agentes químicos del ambiente laboral.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto)."
                     },
                     {
-                      "name": "Evaluación sobre la concentración de los agentes químicos contaminantes del ambiente laboral (por laboratorio acreditado ante ema)",
+                      "name": "Evaluación sobre la concentración de los agentes químicos contaminantes del ambiente laboral (por laboratorio acreditado ante ema).",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad de puntos de evaluación."
                     }
                   ]
@@ -664,7 +664,7 @@
                   "description": "Seguridad e Higiene en los centros de trabajo donde se genere ruido.",
                   "services": [
                     {
-                      "name": "Evaluación de los niveles de ruido en el medio ambiente laboral",
+                      "name": "Evaluación de los niveles de ruido en el medio ambiente laboral.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad de puntos de evaluación."
                     }
                   ]
@@ -676,7 +676,7 @@
                   "description": "Condiciones térmicas elevadas o abatidas.",
                   "services": [
                     {
-                      "name": "Reconocimiento, evaluación y control de las condiciones térmicas elevadas o abatidas",
+                      "name": "Reconocimiento, evaluación y control de las condiciones térmicas elevadas o abatidas.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad de puntos de evaluación."
                     }
                   ]
@@ -688,7 +688,7 @@
                   "description": "Vibraciones.",
                   "services": [
                     {
-                      "name": "Estudio de vibraciones en cuerpo entero",
+                      "name": "Estudio de vibraciones en cuerpo entero.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad de puntos de evaluación."
                     }
                   ]
@@ -700,7 +700,7 @@
                   "description": "Iluminación.",
                   "services": [
                     {
-                      "name": "Informe de resultados de la evaluación de los niveles de iluminación",
+                      "name": "Informe de resultados de la evaluación de los niveles de iluminación.",
                       "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad de puntos de evaluación."
                     }
                   ]
@@ -726,7 +726,7 @@
               "description": "Electricidad estática.",
               "services": [
                 {
-                  "name": "Instalación de sistema de red puesta a tierra e instalación de sistema de pararrayos",
+                  "name": "Instalación de sistema de red puesta a tierra e instalación de sistema de pararrayos.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.-Cantidad de puntos de evaluación."
                 }
               ]
@@ -738,11 +738,11 @@
               "description": "Mantenimiento de instalaciones eléctricas.",
               "services": [
                 {
-                  "name": "Elaboración de diagrama unifilar de las instalaciones eléctricas del centro de trabajo",
+                  "name": "Elaboración de diagrama unifilar de las instalaciones eléctricas del centro de trabajo.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.-Cantidad de puntos de evaluación."
                 },
                 {
-                  "name": "Elaboración del cuadro general de cargas instaladas por circuito derivado",
+                  "name": "Elaboración del cuadro general de cargas instaladas por circuito derivado.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.-Cantidad de puntos de evaluación."
                 }
               ]
@@ -761,7 +761,7 @@
           "subcategories": [
             {
               "id": "requisitos-varios-de-las-normas-stps",
-              "label": "Requisitos varios de las normas STPS",
+              "label": "Requisitos varios de las normas STPS.",
               "code": null,
               "description": "Requisitos varios de las normas STPS.",
               "services": [
@@ -770,11 +770,11 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Evaluaciones médicos generales",
+                  "name": "Evaluaciones médicos generales.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Evaluaciones de antidoping",
+                  "name": "Evaluaciones de antidoping.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -786,7 +786,7 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Ergonomía",
+                  "name": "Ergonomía.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -817,7 +817,7 @@
           "subcategories": [
             {
               "id": "requisitos-varios-de-proteccion-civil",
-              "label": "Requisitos varios de Protección Civil",
+              "label": "Requisitos varios de Protección Civil.",
               "code": null,
               "description": "Requisitos varios de Protección Civil.",
               "services": [
@@ -874,14 +874,14 @@
               "description": "CRIT, Hidrocarburos de petróleo (TPH), Bifenilos policlorados (PBC).",
               "services": [
                 {
-                  "name": "Análisis de Residuos",
+                  "name": "Análisis de Residuos.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
             },
             {
               "id": "gestion-ambiental-normatividad-emitida-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
-              "label": "Gestión ambiental, normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal",
+              "label": "Gestión ambiental, normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "code": null,
               "description": "Gestión ambiental, normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "services": [
@@ -890,7 +890,7 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Manifestación de Impacto Ambiental MIA",
+                  "name": "Manifestación de Impacto Ambiental MIA.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -913,7 +913,7 @@
             },
             {
               "id": "tramites-y-licencias-ambientales-segun-la-normatividad-emitida-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
-              "label": "Tramites y licencias ambientales, según la normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal",
+              "label": "Tramites y licencias ambientales, según la normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "code": null,
               "description": "Tramites y licencias ambientales, según la normatividad emitida por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "services": [
@@ -922,7 +922,7 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Licencia Ambiental Única (LAU FEDERAL)",
+                  "name": "Licencia Ambiental Única (LAU FEDERAL).",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -930,11 +930,11 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Cedula de Operación Anual (COA ESTATAL)",
+                  "name": "Cedula de Operación Anual (COA ESTATAL).",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Cedula de Operación Integral (COA FEDERAL)",
+                  "name": "Cedula de Operación Integral (COA FEDERAL).",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -946,7 +946,7 @@
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
-                  "name": "Planes de Manejo de residuos peligrosos",
+                  "name": "Planes de Manejo de residuos peligrosos.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 },
                 {
@@ -961,7 +961,7 @@
             },
             {
               "id": "auditoria-ambiental-nomatividad-emitda-por-la-secretaria-de-medio-ambiente-a-nivel-estatal-federal-o-municipal",
-              "label": "Auditoría Ambiental. Nomatividad emitda por la  secretaria de medio ambiente a nivel estatal, federal o municipal",
+              "label": "Auditoría Ambiental. Nomatividad emitda por la  secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "code": null,
               "description": "Auditoría Ambiental. Nomatividad emitda por la secretaria de medio ambiente a nivel estatal, federal o municipal.",
               "services": [
@@ -989,12 +989,12 @@
             },
             {
               "id": "modificaciones-a-los-registros-y-autorizaciones-en-materia-de-residuos-peligrosos",
-              "label": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos",
+              "label": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos.",
               "code": null,
               "description": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos.",
               "services": [
                 {
-                  "name": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos",
+                  "name": "Modificaciones a los registros y autorizaciones en materia de residuos peligrosos.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Cantidad POE (personal ocupacional expuesto). 7.- Giro"
                 }
               ]
@@ -1012,7 +1012,7 @@
               "description": "Gestión ante SERMARNAT para ingreso de PPA Y ERA.",
               "services": [
                 {
-                  "name": "PPA y ERA",
+                  "name": "PPA y ERA.",
                   "quoteRequirements": "1.- Nombre y apellidos 2.- correo electrónico 3.- Teléfono celular 4.- Puesto de trabajo 5.- Superficie construida en m2. 6.- Giro"
                 }
               ]
@@ -1031,16 +1031,16 @@
           "subcategories": [
             {
               "id": "licencias-de-apertura-mercantil-y-tramites",
-              "label": "Licencias de apertura mercantil y tramites",
+              "label": "Licencias de apertura mercantil y tramites.",
               "code": null,
               "description": "Licencias de apertura mercantil y tramites.",
               "services": [
                 {
-                  "name": "Uso de suelo",
+                  "name": "Uso de suelo.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 },
                 {
-                  "name": "Factibilidad de giro",
+                  "name": "Factibilidad de giro.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 },
                 {
@@ -1060,43 +1060,43 @@
               "description": "Tramite, gestión y seguimiento ante SEMARNAT, para paro de operación.",
               "services": [
                 {
-                  "name": "Trámite",
+                  "name": "Trámite.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
             },
             {
               "id": "documentacion-para-el-cumplimiento-de-la-nom-022",
-              "label": "Documentacion para el cumplimiento de la NOM 022",
+              "label": "Documentacion para el cumplimiento de la NOM 022.",
               "code": null,
               "description": "Documentacion para el cumplimiento de la NOM 022.",
               "services": [
                 {
-                  "name": "Documental",
+                  "name": "Documental.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
             },
             {
               "id": "gestion-para-cambio-de-razon-social-en-servicios",
-              "label": "Gestión para cambio de razón social en servicios",
+              "label": "Gestión para cambio de razón social en servicios.",
               "code": null,
               "description": "Gestión para cambio de razón social en servicios.",
               "services": [
                 {
-                  "name": "Gestión y seguimiento para cambio de razones sociales ante diferentes entidades, para operación y funcionamiento",
+                  "name": "Gestión y seguimiento para cambio de razones sociales ante diferentes entidades, para operación y funcionamiento.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
             },
             {
               "id": "gestion-para-alta-de-representante-legal-semarnat",
-              "label": "Gestión para alta de representante legal SEMARNAT",
+              "label": "Gestión para alta de representante legal SEMARNAT.",
               "code": null,
               "description": "Gestión para alta de representante legal SEMARNAT.",
               "services": [
                 {
-                  "name": "Gestión para alta ante SEMARNAT",
+                  "name": "Gestión para alta ante SEMARNAT.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1108,7 +1108,7 @@
               "description": "Aviso de accidentes de trabajo, (SIAAT).",
               "services": [
                 {
-                  "name": "Capacitación",
+                  "name": "Capacitación.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1120,7 +1120,7 @@
               "description": "Sistema de Registro de la Capacitación Empresarial, (SIRCE).",
               "services": [
                 {
-                  "name": "Capacitación",
+                  "name": "Capacitación.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1132,7 +1132,7 @@
               "description": "Diplomado en seguridad e higiene en el trabajo y salud ocupacional.",
               "services": [
                 {
-                  "name": "Diplomado",
+                  "name": "Diplomado.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1144,7 +1144,7 @@
               "description": "Diplomado En Seguridad Integral En Prevención De Riesgos.",
               "services": [
                 {
-                  "name": "Capacitación",
+                  "name": "Capacitación.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
@@ -1162,7 +1162,7 @@
               "description": "Estudio De Riesgo ambiental Para Plantas En Operación.",
               "services": [
                 {
-                  "name": "PPA y ERA",
+                  "name": "PPA y ERA.",
                   "quoteRequirements": "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                 }
               ]
