@@ -560,7 +560,20 @@ export default function Cursos() {
           const label = (s.label ?? "").trim();
 
           const titleLine = code || label || `Item ${i + 1}`;
-          const subLine = desc || (code && label ? label.replace(code, "").trim() : "");
+          // Solo mostrar subLine si description no está vacía
+          const subLine = desc ? desc : (code && label ? label.replace(code, "").trim() : "");
+
+          // Filtrar servicios que sean solo "Diplomado" o "Capacitación"
+          const validServices = (s.services ?? []).filter((sv) => {
+            if (!sv.name || !sv.name.trim()) return false;
+            const normalized = sv.name.trim().toLowerCase();
+            // Excluir si es exactamente "diplomado", "capacitación" o "capacitacion" (con o sin punto)
+            if (normalized === 'diplomado' || normalized === 'capacitación' || normalized === 'capacitacion' || 
+                normalized === 'diplomado.' || normalized === 'capacitación.' || normalized === 'capacitacion.') {
+              return false;
+            }
+            return true;
+          });
 
           return (
             <Collapsible
@@ -571,13 +584,13 @@ export default function Cursos() {
               title={
                 <div className="flex flex-col items-start">
                   <span className="font-black">{titleLine}</span>
-                  {subLine ? <span className="font-medium opacity-90">{subLine}</span> : null}
+                  {subLine && desc ? <span className="font-medium opacity-90">{subLine}</span> : null}
                 </div>
               }
             >
-              {s.services?.length ? (
+              {validServices.length > 0 ? (
                 <ul className="pl-4 sm:pl-5 mt-3 space-y-3 text-base sm:text-lg md:text-[18px] font-semibold leading-snug text-slate-900">
-                  {s.services.map((sv) => {
+                  {validServices.map((sv) => {
                     const item: QuoteItem = {
                       id: `servicio:${subKey}:${slugify(sv.name)}`,
                       label: sv.name,
@@ -604,7 +617,24 @@ export default function Cursos() {
                   })}
                 </ul>
               ) : (
-                <div className="mt-2 text-[16px] font-medium text-slate-700">Sin servicios listados.</div>
+                // Si no hay servicios válidos, mostrar botón de cotización con el título del padre
+                <div className="mt-2 pl-4 sm:pl-5">
+                  {(() => {
+                    const item: QuoteItem = {
+                      id: `servicio:${subKey}:directo`,
+                      label: titleLine,
+                      kind: "servicio",
+                      requirements: "",
+                    };
+                    const selected = isSelected(item.id);
+                    
+                    return (
+                      <Pill variant="add" selected={selected} onClick={() => toggleQuote(item)}>
+                        {selected ? "Quitar" : "Sumar a cotización"}
+                      </Pill>
+                    );
+                  })()}
+                </div>
               )}
             </Collapsible>
           );
@@ -719,6 +749,17 @@ export default function Cursos() {
       </div>
     );
 
+    // Filtrar trainings vacíos o que sean solo "Diplomado" o "Capacitación"
+    const validTrainings = (n.trainings ?? []).filter((t) => {
+      if (!t || !t.trim()) return false;
+      const normalized = t.trim().toLowerCase();
+      // Excluir si es exactamente "diplomado", "capacitación" o "capacitacion"
+      if (normalized === 'diplomado' || normalized === 'capacitación' || normalized === 'capacitacion' || normalized === 'diplomado.' || normalized === 'capacitación.' || normalized === 'capacitacion.') {
+        return false;
+      }
+      return true;
+    });
+
     return (
       <Collapsible
         key={normaKey}
@@ -727,9 +768,9 @@ export default function Cursos() {
         onToggle={() => toggle(setOpenCursoNorma, normaKey)}
         title={header}
       >
-        {(n.trainings ?? []).length ? (
+        {validTrainings.length > 0 ? (
           <ul className="pl-4 sm:pl-5 mt-2 space-y-3 text-base sm:text-lg md:text-[18px] font-semibold leading-snug text-slate-900">
-            {(n.trainings ?? []).map((t) => {
+            {validTrainings.map((t) => {
               const item: QuoteItem = {
                 id: `curso:${normaKey}:${slugify(t)}`,
                 label: t,
@@ -756,7 +797,26 @@ export default function Cursos() {
             })}
           </ul>
         ) : (
-          <div className="mt-2 text-[16px] font-medium text-slate-700">Sin cursos listados.</div>
+          // Si no hay trainings válidos, mostrar botón de cotización con el título de la norma
+          <div className="mt-2 pl-4 sm:pl-5">
+            {(() => {
+              // Usar normaTitle completo si existe, sino el código
+              const normaLabel = normaTitle || code || "Capacitación";
+              const item: QuoteItem = {
+                id: `curso:${normaKey}:directo`,
+                label: normaLabel,
+                kind: "curso",
+                requirements: (n.quoteRequirements ?? []).filter(Boolean).join("\n"),
+              };
+              const selected = isSelected(item.id);
+              
+              return (
+                <Pill variant="add" selected={selected} onClick={() => toggleQuote(item)}>
+                  {selected ? "Quitar" : "Sumar a cotización"}
+                </Pill>
+              );
+            })()}
+          </div>
         )}
       </Collapsible>
     );

@@ -13,7 +13,7 @@
                            "normas":  [
                                           {
                                               "id":  "nom-001-stps-2008",
-                                              "code":  "NOM-001-STPS-2008",
+                                              "code":  "NOM-001-STPS-2008.",
                                               "normaTitle":  "Edificios, locales, instalaciones y áreas en los centros de trabajo - Condiciones de seguridad.",
                                               "trainings":  [
                                                                 "Uso y conservación de las áreas donde realicen las actividades en el centro de trabajo y de servicio.",
@@ -23,7 +23,7 @@
                                           },
                                           {
                                               "id":  "nom-002-stps-2010",
-                                              "code":  "NOM-002-STPS-2010",
+                                              "code":  "NOM-002-STPS-2010.",
                                               "normaTitle":  "Condiciones de seguridad - Prevención y protección contra incendios en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Condiciones de seguridad-Prevención y protección contra incendios en los centros de trabajo.",
@@ -54,7 +54,7 @@
                                           },
                                           {
                                               "id":  "nom-004-stps-1999",
-                                              "code":  "NOM-004-STPS-1999",
+                                              "code":  "NOM-004-STPS-1999.",
                                               "normaTitle":  "Sistemas de protección y dispositivos de seguridad en la maquinaria y equipo que se utilice en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Lototo: bloqueo, etiquetado y testeo.",
@@ -69,7 +69,7 @@
                                           },
                                           {
                                               "id":  "nom-005-stps-1998",
-                                              "code":  "NOM-005-STPS-1998",
+                                              "code":  "NOM-005-STPS-1998.",
                                               "normaTitle":  "Relativa a las condiciones de seguridad e higiene en los centros de trabajo para el manejo, transporte y almacenamiento de sustancias químicas peligrosas.",
                                               "trainings":  [
                                                                 "Relativa a las condiciones de seguridad e higiene en los centros de trabajo para el manejo, transporte y almacenamiento de sustancias químicas peligrosas.",
@@ -84,7 +84,7 @@
                                           },
                                           {
                                               "id":  "nom-006-stps-2023",
-                                              "code":  "NOM-006-STPS-2023",
+                                              "code":  "NOM-006-STPS-2023.",
                                               "normaTitle":  "Almacenamiento y manejo de materiales mediante el uso de maquinaria-condiciones de seguridad en el trabajo.",
                                               "trainings":  [
                                                                 "Almacenamiento y manejo de materiales mediante el uso de maquinaria-condiciones de seguridad en el trabajo.",
@@ -105,7 +105,7 @@
                                           },
                                           {
                                               "id":  "nom-009-stps-2011",
-                                              "code":  "NOM-009-STPS-2011",
+                                              "code":  "NOM-009-STPS-2011.",
                                               "normaTitle":  "Condiciones de seguridad para realizar trabajos en altura.",
                                               "trainings":  [
                                                                 "Condiciones de seguridad para realizar trabajos en altura.",
@@ -118,7 +118,7 @@
                                           },
                                           {
                                               "id":  "nom-020-stps-2011",
-                                              "code":  "NOM-020-STPS-2011",
+                                              "code":  "NOM-020-STPS-2011.",
                                               "normaTitle":  "Recipientes sujetos a presión, recipientes criogénicos y generadores de vapor o calderas - funcionamiento condiciones de seguridad.",
                                               "trainings":  [
                                                                 "Recipientes sujetos a presión, recipientes criogénicos y generadores de vapor o calderas - funcionamiento condiciones de seguridad."
@@ -126,7 +126,7 @@
                                           },
                                           {
                                               "id":  "nom-022-stps-2015",
-                                              "code":  "NOM-022-STPS-2015",
+                                              "code":  "NOM-022-STPS-2015.",
                                               "normaTitle":  "Electricidad estática en los centros de trabajo-condiciones de seguridad.",
                                               "trainings":  [
                                                                 "Electricidad estática en los centros de trabajo-condiciones de seguridad."
@@ -134,7 +134,7 @@
                                           },
                                           {
                                               "id":  "nom-027-stps-2008",
-                                              "code":  "NOM-027-STPS-2008",
+                                              "code":  "NOM-027-STPS-2008.",
                                               "normaTitle":  "Actividades de soldadura y corte - condiciones de seguridad e higiene.",
                                               "trainings":  [
                                                                 "Actividades de soldadura y corte - condiciones de seguridad e higiene."
@@ -142,7 +142,7 @@
                                           },
                                           {
                                               "id":  "nom-029-stps-2011",
-                                              "code":  "NOM-029-STPS-2011",
+                                              "code":  "NOM-029-STPS-2011.",
                                               "normaTitle":  "Mantenimiento de las instalaciones eléctricas en los centros de trabajo-condiciones de seguridad.",
                                               "trainings":  [
                                                                 "Mantenimiento de las instalaciones eléctricas en los centros de trabajo-condiciones de seguridad."
@@ -150,7 +150,7 @@
                                           },
                                           {
                                               "id":  "nom-033-stps-2015",
-                                              "code":  "NOM-033-STPS-2015",
+                                              "code":  "NOM-033-STPS-2015.",
                                               "normaTitle":  "Condiciones de seguridad para realizar trabajos en espacios confinados.",
                                               "trainings":  [
                                                                 "Condiciones de seguridad para realizar trabajos en espacios confinados."
@@ -158,7 +158,7 @@
                                           },
                                           {
                                               "id":  "nom-034-stps-2016",
-                                              "code":  "NOM-034-STPS-2016",
+                                              "code":  "NOM-034-STPS-2016.",
                                               "normaTitle":  "Condiciones de seguridad para el acceso y desarrollo de actividades de trabajadores con discapacidad en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Condiciones de seguridad para el acceso y desarrollo de actividades de trabajadores con discapacidad.",
@@ -169,11 +169,11 @@
                        },
                        {
                            "id":  "normas-de-salud",
-                           "title":  "NORMAS DE SALUD",
+                           "title":  "NORMAS DE SALUD.",
                            "normas":  [
                                           {
                                               "id":  "nom-010-stps-2014",
-                                              "code":  "NOM-010-STPS-2014",
+                                              "code":  "NOM-010-STPS-2014.",
                                               "normaTitle":  "Agentes químicos contaminantes del ambiente laboral - reconocimiento, evaluación y control.",
                                               "trainings":  [
                                                                 "Agentes químicos contaminantes del ambiente laboral - reconocimiento, evaluación y control."
@@ -181,7 +181,7 @@
                                           },
                                           {
                                               "id":  "nom-011-stps-2001",
-                                              "code":  "NOM-011-STPS-2001",
+                                              "code":  "NOM-011-STPS-2001.",
                                               "normaTitle":  "Condiciones de seguridad e higiene en los centros de trabajo donde se genere ruido.",
                                               "trainings":  [
                                                                 "Condiciones de seguridad e higiene en los centros de trabajo donde se genere ruido."
@@ -189,7 +189,7 @@
                                           },
                                           {
                                               "id":  "nom-015-stps-2001",
-                                              "code":  "NOM-015-STPS-2001",
+                                              "code":  "NOM-015-STPS-2001.",
                                               "normaTitle":  "Condiciones térmicas elevadas o abatidas - condiciones de seguridad e higiene.",
                                               "trainings":  [
                                                                 "Condiciones térmicas elevadas o abatidas - condiciones de seguridad e higiene."
@@ -197,7 +197,7 @@
                                           },
                                           {
                                               "id":  "nom-024-stps-2001",
-                                              "code":  "NOM-024-STPS-2001",
+                                              "code":  "NOM-024-STPS-2001.",
                                               "normaTitle":  "Vibraciones-condiciones de seguridad e higiene en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Vibraciones-condiciones de seguridad e higiene en los centros de trabajo."
@@ -205,7 +205,7 @@
                                           },
                                           {
                                               "id":  "nom-025-stps-2008",
-                                              "code":  "NOM-025-STPS-2008",
+                                              "code":  "NOM-025-STPS-2008.",
                                               "normaTitle":  "Condiciones de iluminación en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Condiciones de iluminación en los centros de trabajo."
@@ -213,7 +213,7 @@
                                           },
                                           {
                                               "id":  "nom-035-stps-2018",
-                                              "code":  "NOM-035-STPS-2018",
+                                              "code":  "NOM-035-STPS-2018.",
                                               "normaTitle":  "Factores de riesgo psicosocial en el trabajo-Identificación, análisis y prevención.",
                                               "trainings":  [
                                                                 "Factores de riesgo psicosocial en el trabajo-Identificación, análisis y prevención."
@@ -221,7 +221,7 @@
                                           },
                                           {
                                               "id":  "nom-036-1-stps-2018",
-                                              "code":  "NOM-036-1-STPS-2018",
+                                              "code":  "NOM-036-1-STPS-2018.",
                                               "normaTitle":  "Factores de riesgo ergonómico en el trabajo-identificación, análisis, prevención y control. parte 1: manejo manual de cargas.",
                                               "trainings":  [
                                                                 "Factores de riesgo ergonómico en el trabajo-identificación, análisis, prevención y control. parte 1: manejo manual de cargas.",
@@ -232,11 +232,11 @@
                        },
                        {
                            "id":  "normas-de-organizacion",
-                           "title":  "NORMAS DE ORGANIZACIÓN",
+                           "title":  "NORMAS DE ORGANIZACIÓN.",
                            "normas":  [
                                           {
                                               "id":  "nom-017-stps-2024",
-                                              "code":  "NOM-017-STPS-2024",
+                                              "code":  "NOM-017-STPS-2024.",
                                               "normaTitle":  "Equipo de protección personal-Selección, uso y manejo en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Equipo de protección personal-selección, uso y manejo en los centros de trabajo.",
@@ -247,7 +247,7 @@
                                           },
                                           {
                                               "id":  "nom-018-stps-2015",
-                                              "code":  "NOM-018-STPS-2015",
+                                              "code":  "NOM-018-STPS-2015.",
                                               "normaTitle":  "Sistema armonizado para la identificación y comunicación de peligros y riesgos por sustancias químicas peligrosas en los centros de trabajo.",
                                               "trainings":  [
                                                                 "Sistema globalmente armonizado para la identificación y comunicación de peligros y riesgos por sustancias químicas peligrosas en los centros de trabajo."
@@ -255,7 +255,7 @@
                                           },
                                           {
                                               "id":  "nom-019-stps-2011",
-                                              "code":  "NOM-019-STPS-2011",
+                                              "code":  "NOM-019-STPS-2011.",
                                               "normaTitle":  "Constitución, integración, organización y funcionamiento de las comisiones de seguridad e higiene.",
                                               "trainings":  [
                                                                 "Constitución, organización y funcionamiento de las comisiones de seguridad e higiene en los centros de trabajo."
@@ -263,7 +263,7 @@
                                           },
                                           {
                                               "id":  "nom-026-stps-2008",
-                                              "code":  "NOM-026-STPS-2008",
+                                              "code":  "NOM-026-STPS-2008.",
                                               "normaTitle":  "Colores y señales de seguridad e higiene, e identificación de riesgos por fluidos conducidos en tuberías.",
                                               "trainings":  [
                                                                 "Correcta interpretación de los elementos de señalización del centro de trabajo-colores de seguridad."
@@ -271,7 +271,7 @@
                                           },
                                           {
                                               "id":  "nom-030-stps-2009",
-                                              "code":  "NOM-030-STPS-2009",
+                                              "code":  "NOM-030-STPS-2009.",
                                               "normaTitle":  "Servicios preventivos de seguridad y salud en el trabajo - funciones y actividades.",
                                               "trainings":  [
                                                                 "Servicios preventivos de seguridad y salud en el trabajo.",
@@ -284,11 +284,11 @@
                        },
                        {
                            "id":  "normas-especificas",
-                           "title":  "NORMAS ESPECÍFICAS",
+                           "title":  "NORMAS ESPECÍFICAS.",
                            "normas":  [
                                           {
                                               "id":  "nom-031-stps-2011",
-                                              "code":  "NOM-031-STPS-2011",
+                                              "code":  "NOM-031-STPS-2011.",
                                               "normaTitle":  "Construcción-Condiciones de seguridad y salud en el trabajo.",
                                               "trainings":  [
                                                                 " Construcción-Condiciones de seguridad y salud en el trabajo."
@@ -296,7 +296,7 @@
                                           },
                                           {
                                               "id":  "nom-037-stps-2023",
-                                              "code":  "NOM-037-STPS-2023",
+                                              "code":  "NOM-037-STPS-2023.",
                                               "normaTitle":  "Teletrabajo-Condiciones de seguridad y salud en el trabajo.",
                                               "trainings":  [
                                                                 "Teletrabajo-Condiciones de seguridad y salud en el trabajo."
@@ -306,7 +306,7 @@
                        },
                        {
                            "id":  "capacitaciones-adicionales",
-                           "title":  "CAPACITACIONES ADICIONALES",
+                           "title":  "CAPACITACIONES ADICIONALES.",
                            "normas":  [
                                           {
                                               "id":  "adicionales",
@@ -331,12 +331,12 @@
                        },
                        {
                            "id":  "capacitaciones-especiales",
-                           "title":  "Capacitaciónes Especiales",
+                           "title":  "Capacitaciónes Especiales.",
                            "iconKey":  "capacitacionesAdicionales",
                            "normas":  [
                                           {
                                               "id":  "siaat",
-                                              "code":  "SIAAT",
+                                              "code":  "SIAAT.",
                                               "normaTitle":  "Aviso de accidentes de trabajo, (SIAAT), (Capacitación y elaboración ante portal).",
                                               "trainings":  [
                                                                 "Aviso de accidentes de trabajo, (SIAAT), Capacitación y elaboración ante portal."
@@ -353,7 +353,7 @@
                                           },
                                           {
                                               "id":  "sirce",
-                                              "code":  "SIRCE",
+                                              "code":  "SIRCE.",
                                               "normaTitle":  "Sistema de Registro de la Capacitación Empresarial, (SIRCE) (Capacitación y elaboración ante portal).",
                                               "trainings":  [
                                                                 "Sistema de Registro de la Capacitación Empresarial, (SIRCE) Capacitación y elaboración ante portal."
@@ -438,7 +438,7 @@
                                           },
                                           {
                                               "id":  "taller-nom-035",
-                                              "code":  "NOM-035-STPS-2018",
+                                              "code":  "NOM-035-STPS-2018.",
                                               "normaTitle":  "Taller para la aplicación del Desarrollo e interpretación de la NOM-035-STPS-2018 FACTORES DE RIESGO PSICOSOCIALES.",
                                               "trainings":  [
                                                                 "Taller para la aplicación del Desarrollo e interpretación de la NOM-035-STPS-2018 FACTORES DE RIESGO PSICOSOCIALES."
@@ -508,7 +508,7 @@
                        },
                        {
                            "id":  "proteccion-civil",
-                           "title":  "Protección civil",
+                           "title":  "Protección civil.",
                            "normas":  [
                                           {
                                               "id":  "pc",
@@ -527,7 +527,7 @@
                        },
                        {
                            "id":  "conocer",
-                           "title":  "Cursos del Conocer",
+                           "title":  "Cursos del Conocer.",
                            "normas":  [
                                           {
                                               "id":  "imparticion-de-cursos-de-formacion-del-capital-humano-de-manera-presencial-grupal",
