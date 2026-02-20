@@ -1162,54 +1162,6 @@
                                                                                              "quoteRequirements":  "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
                                                                                          }
                                                                                      ]
-                                                                    },
-                                                                    {
-                                                                        "id":  "aviso-de-accidentes-de-trabajo-siaat",
-                                                                        "label":  "Aviso de accidentes de trabajo, (SIAAT).",
-                                                                        "code":  null,
-                                                                        "description":  "",
-                                                                        "services":  [
-                                                                                         {
-                                                                                             "name":  "Aviso de accidentes de trabajo, (SIAAT).",
-                                                                                             "quoteRequirements":  "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
-                                                                                         }
-                                                                                     ]
-                                                                    },
-                                                                    {
-                                                                        "id":  "sistema-de-registro-de-la-capacitacion-empresarial-sirce",
-                                                                        "label":  "Sistema de Registro de la Capacitación Empresarial, (SIRCE).",
-                                                                        "code":  null,
-                                                                        "description":  "",
-                                                                        "services":  [
-                                                                                         {
-                                                                                             "name":  "Capacitación.",
-                                                                                             "quoteRequirements":  "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
-                                                                                         }
-                                                                                     ]
-                                                                    },
-                                                                    {
-                                                                        "id":  "diplomado-en-seguridad-e-higiene-en-el-trabajo-y-salud-ocupacional",
-                                                                        "label":  "Diplomado en seguridad e higiene en el trabajo y salud ocupacional.",
-                                                                        "code":  null,
-                                                                        "description":  "",
-                                                                        "services":  [
-                                                                                         {
-                                                                                             "name":  "Diplomado.",
-                                                                                             "quoteRequirements":  "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
-                                                                                         }
-                                                                                     ]
-                                                                    },
-                                                                    {
-                                                                        "id":  "diplomado-en-seguridad-integral-en-prevencion-de-riesgos",
-                                                                        "label":  "Diplomado En Seguridad Integral En Prevención De Riesgos.",
-                                                                        "code":  null,
-                                                                        "description":  "",
-                                                                        "services":  [
-                                                                                         {
-                                                                                             "name":  "Capacitación.",
-                                                                                             "quoteRequirements":  "1.- Nombre y apellidos. 2.- correo electrónico. 3.- Teléfono celular. 4.- Puesto de trabajo. 5.- Superficie construida en m2. 6.- Aforo total de ocupación. 7.- Giro."
-                                                                                         }
-                                                                                     ]
                                                                     }
                                                                 ]
                                           },
