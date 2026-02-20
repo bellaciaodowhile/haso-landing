@@ -859,7 +859,7 @@ export default function Cursos() {
             />
 
             {/* Overlay centrado: icono + placeholder alineados (solo cuando está vacío) */}
-            <div className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 sm:gap-3 text-slate-400 opacity-0 transition-opacity duration-150 peer-placeholder-shown:opacity-100 px-4">
+            <div id="nuestros-cursos" className="pointer-events-none absolute inset-0 flex items-center justify-center gap-2 sm:gap-3 text-slate-400 opacity-0 transition-opacity duration-150 peer-placeholder-shown:opacity-100 px-4">
               <svg
                 className="h-5 w-5 sm:h-6 sm:w-6 shrink-0"
                 viewBox="0 0 24 24"

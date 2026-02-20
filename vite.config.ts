@@ -4,4 +4,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: './', // Usar rutas relativas para que funcione en cualquier ubicación
 });

@@ -92,7 +92,7 @@ export default function Navbar({ logoSrc, logoAlt = "HASO" }: NavbarProps) {
             className="inline-flex h-[34px] mr-2 items-center justify-center rounded-full bg-[#6bb16e] px-6 text-[16px] font-extrabold text-white shadow-[0_2px_0_rgba(0,0,0,0.15)] transition-all hover:-translate-y-0.5 hover:bg-[#5fa963] active:translate-y-0"
             onClick={() => {
               window.history.pushState({}, "", "#cotiza");
-              scrollToHash("#cotiza");
+              scrollToHash("#nuestros-cursos");
             }}
           >
             Cotiza aquí
