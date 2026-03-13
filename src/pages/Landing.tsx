@@ -112,9 +112,15 @@ export default function Landing() {
 
   // Cargar slides desde JSON
   React.useEffect(() => {
+    // Intentar cargar desde API primero, si falla usar datos por defecto
     fetch('/api/hero-slides')
-      .then(res => res.json())
+      .then(res => {
+        if (!res.ok) throw new Error('API failed');
+        return res.json();
+      })
       .then(data => {
+        if (!Array.isArray(data)) throw new Error('Invalid data format');
+        
         const imageMap: Record<string, string> = {
           '/src/assets/29/img promo 1.jpg': slidePromo1,
           '/src/assets/29/img promo 2.jpg': slidePromo2,
@@ -134,7 +140,10 @@ export default function Landing() {
         
         setSlides(loadedSlides);
       })
-      .catch(err => console.error('Error cargando slides:', err));
+      .catch(err => {
+        console.error('Error cargando slides, usando datos por defecto:', err);
+        // Mantener los slides por defecto si falla la carga
+      });
   }, []);
 
   const clientLogos = [

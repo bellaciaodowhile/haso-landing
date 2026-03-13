@@ -1,16 +1,8 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { kv } from '@vercel/kv';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   try {
-    // Intentar obtener desde KV primero
-    const slides = await kv.get('hero_slides');
-    
-    if (slides) {
-      return res.status(200).json(slides);
-    }
-    
-    // Si no existe en KV, devolver datos por defecto
+    // Devolver datos por defecto
     const defaultSlides = [
       {
         "image": "/src/assets/29/img promo 1.jpg",
@@ -32,6 +24,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       }
     ];
     
+    res.setHeader('Content-Type', 'application/json');
     res.status(200).json(defaultSlides);
   } catch (error) {
     console.error('Error en hero-slides:', error);

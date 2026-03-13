@@ -1,24 +1,21 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import { kv } from '@vercel/kv';
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Método no permitido' });
   }
 
-  const { username, password, slides } = req.body;
+  const { username, password } = req.body;
 
   // Validar credenciales
   if (username !== 'adminis' || password !== 'adminiscupn') {
     return res.status(401).json({ error: 'Credenciales incorrectas' });
   }
 
-  try {
-    // Guardar en Vercel KV
-    await kv.set('hero_slides', slides);
-    res.status(200).json({ success: true, message: 'Slides guardados correctamente' });
-  } catch (error) {
-    console.error('Error guardando slides:', error);
-    res.status(500).json({ error: 'Error al guardar los slides' });
-  }
+  // En Vercel sin base de datos, no podemos guardar cambios persistentes
+  // Esta función solo valida que el usuario puede "guardar" pero los cambios no persisten
+  res.status(200).json({ 
+    success: true, 
+    message: 'Nota: Los cambios no persisten en Vercel sin base de datos. Configura Vercel KV para persistencia.' 
+  });
 }
