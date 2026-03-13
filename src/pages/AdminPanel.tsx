@@ -29,7 +29,7 @@ export default function AdminPanel() {
 
   const loadSlides = async () => {
     try {
-      const response = await fetch('/hero_slides.json?t=' + Date.now());
+      const response = await fetch('/api/hero-slides');
       const data = await response.json();
       setSlides(data);
     } catch (error) {

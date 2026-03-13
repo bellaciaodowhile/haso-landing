@@ -1,8 +1,7 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
-import fs from 'fs';
-import path from 'path';
+import { kv } from '@vercel/kv';
 
-export default function handler(req: VercelRequest, res: VercelResponse) {
+export default async function handler(req: VercelRequest, res: VercelResponse) {
   if (req.method !== 'POST') {
     return res.status(405).json({ error: 'Método no permitido' });
   }
@@ -14,12 +13,12 @@ export default function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(401).json({ error: 'Credenciales incorrectas' });
   }
 
-  const filePath = path.join(process.cwd(), 'public', 'hero_slides.json');
-
   try {
-    fs.writeFileSync(filePath, JSON.stringify(slides, null, 2), 'utf-8');
+    // Guardar en Vercel KV
+    await kv.set('hero_slides', slides);
     res.status(200).json({ success: true, message: 'Slides guardados correctamente' });
   } catch (error) {
+    console.error('Error guardando slides:', error);
     res.status(500).json({ error: 'Error al guardar los slides' });
   }
 }

@@ -112,7 +112,7 @@ export default function Landing() {
 
   // Cargar slides desde JSON
   React.useEffect(() => {
-    fetch('/hero_slides.json?t=' + Date.now())
+    fetch('/api/hero-slides')
       .then(res => res.json())
       .then(data => {
         const imageMap: Record<string, string> = {
