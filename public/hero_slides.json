@@ -1,0 +1,20 @@
+[
+  {
+    "image": "/uploads/1773416210527-875729075.jpg",
+    "title": "Este cambio es para ver si funciona",
+    "subtitle": "Cumple con las normas oficiales mexicanas",
+    "category": "Capacitación, Miralo, Pues, Como"
+  },
+  {
+    "image": "/src/assets/29/img promo 2.jpg",
+    "title": "Servicios de Protección Civil",
+    "subtitle": "Protege tu empresa y a tu personal",
+    "category": "Protección Civil"
+  },
+  {
+    "image": "/src/assets/29/img promo 3.jpg",
+    "title": "Evaluaciones Médicas Laborales",
+    "subtitle": "Cuida la salud de tus colaboradores",
+    "category": "Salud Ocupacional"
+  }
+]

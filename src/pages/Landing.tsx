@@ -83,8 +83,7 @@ function GreenChevron({ dir = "right" }: { dir?: "left" | "right" }) {
 }
 
 export default function Landing() {
-
-  const slides = [
+  const [slides, setSlides] = React.useState([
     {
       id: "slide-1",
       src: slidePromo1,
@@ -109,7 +108,34 @@ export default function Landing() {
       cta: "Cotiza Aquí",
       msg: "Ambiental"
     },
-  ] as const;
+  ]);
+
+  // Cargar slides desde JSON
+  React.useEffect(() => {
+    fetch('/api/hero-slides')
+      .then(res => res.json())
+      .then(data => {
+        const imageMap: Record<string, string> = {
+          '/src/assets/29/img promo 1.jpg': slidePromo1,
+          '/src/assets/29/img promo 2.jpg': slidePromo2,
+          '/src/assets/29/img promo 3.jpg': slidePromo3,
+        };
+        
+        const loadedSlides = data.map((slide: any, idx: number) => ({
+          id: `slide-${idx + 1}`,
+          src: slide.image.startsWith('/uploads') 
+            ? slide.image 
+            : (imageMap[slide.image] || slidePromo1),
+          badges: slide.category.split(',').map((tag: string) => tag.trim()).filter((tag: string) => tag),
+          title: slide.title,
+          cta: "Cotiza Aquí",
+          msg: slide.subtitle
+        }));
+        
+        setSlides(loadedSlides);
+      })
+      .catch(err => console.error('Error cargando slides:', err));
+  }, []);
 
   const clientLogos = [
     { id: "3b", alt: "3B", src: marca3B },
