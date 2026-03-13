@@ -1,20 +1,20 @@
 [
   {
-    "image": "/uploads/1773416210527-875729075.jpg",
-    "title": "Este cambio es para ver si funciona",
-    "subtitle": "Cumple con las normas oficiales mexicanas",
-    "category": "Capacitación, Miralo, Pues, Como"
+    "image": "/src/assets/29/img promo 1.jpg",
+    "title": "Contrata tu servicio de Diagnóstico y programa de seguridad y salud en el trabajo y adquiere la capacitación para que tu personal implemente el desarrollo y cumplimiento de la NOM-030-STPS-2009",
+    "subtitle": "Cumplimiento Normativo",
+    "category": "Cumplimiento normativo"
   },
   {
     "image": "/src/assets/29/img promo 2.jpg",
-    "title": "Servicios de Protección Civil",
-    "subtitle": "Protege tu empresa y a tu personal",
+    "title": "Contrata tu Programa Interno de Protección Civil y Capacita tu Brigadas por un 20% válido hasta el 30 de Enero de 2026.",
+    "subtitle": "Protección Civil",
     "category": "Protección Civil"
   },
   {
     "image": "/src/assets/29/img promo 3.jpg",
-    "title": "Evaluaciones Médicas Laborales",
-    "subtitle": "Cuida la salud de tus colaboradores",
-    "category": "Salud Ocupacional"
+    "title": "Precio especial por tiempo limitado. Descuento del 5% en el paquete integral si se agenda entre Enero y Febrero 2026. Aplica para empresas nuevas y clientes recurrentes.",
+    "subtitle": "Ambiental",
+    "category": "Ambiental"
   }
 ]
